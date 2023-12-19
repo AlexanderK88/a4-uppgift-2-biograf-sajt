@@ -1,3 +1,28 @@
+$small: 480px;
+$medium: 998px;
+$large: 1200px;
+
+$colorOne: blue;
+$colorTwo: blue;
+$colorThree: blue;
+$colorFour: blue;
+$colorFive: blue;
+$colorSix: blue;
+$colorSeven: blue;
+$colorEight: blue;
+
+@mixin breakpointMin($size) {
+    @media screen and (min-width: $size) {
+        @content;
+    }
+}
+
+@mixin breakpointMax($size) {
+    @media screen and (max-width: $size) {
+        @content;
+    }
+}
+
 * {
     margin: 0;
     padding: 0;
