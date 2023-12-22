@@ -211,7 +211,7 @@
             "genre": ["Äventyr", "Drama"],
             "actors": ["Matthew McConaughey", "Anne Hathaway"],
             "description": "",
-            "kid": true,
+            "kid": false,
             "rating": 5,
             "new": false,
             "poster": "https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg"
