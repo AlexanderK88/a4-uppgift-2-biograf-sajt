@@ -9,7 +9,7 @@
           "description": "",
           "kid": true,
           "rating": 5,
-          "new": true,
+          "new": false,
           "poster": ""
         }
     ]
