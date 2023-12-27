@@ -1,4 +1,33 @@
 @import url("https://fonts.googleapis.com/css2?family=Monofett&family=Sora:wght@100&display=swap");
+.header {
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+}
+.header__container {
+    height: 150px;
+    width: 100%;
+    justify-content: space-between;
+    max-width: 1200px;
+    display: flex;
+    padding: 0 50px;
+}
+.header__topNavigation {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    gap: 80px;
+}
+.header__link {
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+}
+.header__link:hover {
+    color: #800020;
+}
+
 * {
     margin: 0;
     padding: 0;

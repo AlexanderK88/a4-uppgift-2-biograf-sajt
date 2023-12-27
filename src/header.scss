@@ -1,0 +1,32 @@
+.header {
+    background-color: $colorOne;
+    display: flex;
+    justify-content: center;
+
+    &__container {
+        height: 150px;
+        width: 100%;
+        justify-content: space-between;
+        max-width: $large;
+        display: flex;
+        padding: 0 50px;
+    }
+
+    &__topNavigation {
+        display: flex;
+        align-items: center;
+        font-size: 30px;
+        gap: 80px;
+    }
+
+    &__link {
+        font-size: 24px;
+        font-weight: 700;
+        color: white;
+        text-decoration: none;
+
+        &:hover {
+            color: $colorThree;
+        }
+    }
+}
