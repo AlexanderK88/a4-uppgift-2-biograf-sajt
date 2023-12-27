@@ -10,7 +10,8 @@
           "kid": true,
           "rating": 5,
           "new": true,
-          "poster": "https://m.media-amazon.com/images/M/MV5BZjE1MzJlNjYtNDI3ZS00MzRkLTlhMDYtNDU5YWU3YTI3Yzg0XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg"
+          "poster": "https://m.media-amazon.com/images/M/MV5BZjE1MzJlNjYtNDI3ZS00MzRkLTlhMDYtNDU5YWU3YTI3Yzg0XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg",
+          "premiere": "Premiär 6 Januari"
         },
         {
             "title": "Priscilla",
@@ -22,7 +23,8 @@
             "kid": false,
             "rating": 3,
             "new": true,
-            "poster": "https://m.media-amazon.com/images/M/MV5BOTQyZTBiMjAtZTNjZi00ZjU0LWFkMTQtMDE3Nzc1MjVmMTM4XkEyXkFqcGdeQXVyMTM1NjM2ODg1._V1_.jpg"
+            "poster": "https://m.media-amazon.com/images/M/MV5BOTQyZTBiMjAtZTNjZi00ZjU0LWFkMTQtMDE3Nzc1MjVmMTM4XkEyXkFqcGdeQXVyMTM1NjM2ODg1._V1_.jpg",
+            "premiere": "Premiär 7 Januari"
           },
           {
             "title": "Mean Girls",
@@ -34,7 +36,8 @@
             "kid": false,
             "rating": 2,
             "new": true,
-            "poster": "https://m.media-amazon.com/images/M/MV5BODVmYThiNGQtMTQ3Ny00MzQ3LWFkZGItZjU4MDgzZjhjMWZhXkEyXkFqcGdeQXVyNDU1OTUyNTg@._V1_.jpg"
+            "poster": "https://m.media-amazon.com/images/M/MV5BODVmYThiNGQtMTQ3Ny00MzQ3LWFkZGItZjU4MDgzZjhjMWZhXkEyXkFqcGdeQXVyNDU1OTUyNTg@._V1_.jpg",
+            "premiere": "Premiär 13 Januari"
           },
           {
             "title": "The Beekeeper",
@@ -46,7 +49,8 @@
             "kid": false,
             "rating": 3,
             "new": true,
-            "poster": "https://m.media-amazon.com/images/M/MV5BZDkwOTIyZGQtYWNkOS00YzAxLTkwZWUtMzU3YjU4ZDIyYzdlXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg"
+            "poster": "https://m.media-amazon.com/images/M/MV5BZDkwOTIyZGQtYWNkOS00YzAxLTkwZWUtMzU3YjU4ZDIyYzdlXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+            "premiere": "Premiär 14 Januari"
           },
           {
             "title": "Night Swim",
@@ -58,7 +62,8 @@
             "kid": true,
             "rating": 4,
             "new": true,
-            "poster": "https://m.media-amazon.com/images/M/MV5BYzk3NDFiOTUtZGI2OS00NGJhLTkxMWMtNWZiNzI3MjdjOGU2XkEyXkFqcGdeQXVyMjY5ODI4NDk@._V1_.jpg"
+            "poster": "https://m.media-amazon.com/images/M/MV5BYzk3NDFiOTUtZGI2OS00NGJhLTkxMWMtNWZiNzI3MjdjOGU2XkEyXkFqcGdeQXVyMjY5ODI4NDk@._V1_.jpg",
+            "premiere": "Premiär 20 Januari"
           },
           {
             "title": "Anyone But You",
@@ -70,7 +75,8 @@
             "kid": false,
             "rating": 2,
             "new": true,
-            "poster": "https://m.media-amazon.com/images/M/MV5BMDY0NDU5ZDEtNWJlOC00YWNiLThhYmMtMzM2NzRjYTU2YTYyXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg"
+            "poster": "https://m.media-amazon.com/images/M/MV5BMDY0NDU5ZDEtNWJlOC00YWNiLThhYmMtMzM2NzRjYTU2YTYyXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg",
+            "premiere": "Premiär 21 Januari"
           },
           {
             "title": "The Tiger's Apprentice",
@@ -82,7 +88,8 @@
             "kid": true,
             "rating": 3,
             "new": true,
-            "poster": "https://m.media-amazon.com/images/M/MV5BOGFkNTQxZTctMjQ5YS00NWIzLTk5NGQtZDgyZTY5MDA1NWMzXkEyXkFqcGdeQXVyMTM1NjM2ODg1._V1_.jpg"
+            "poster": "https://m.media-amazon.com/images/M/MV5BOGFkNTQxZTctMjQ5YS00NWIzLTk5NGQtZDgyZTY5MDA1NWMzXkEyXkFqcGdeQXVyMTM1NjM2ODg1._V1_.jpg",
+            "premiere": "Premiär 27 Januari"
           },
           {
             "title": "Kung Fu Panda 4",
@@ -94,7 +101,8 @@
             "kid": true,
             "rating": 5,
             "new": true,
-            "poster": "https://m.media-amazon.com/images/M/MV5BYzA1YWZmMjYtMTQ5MC00NmQwLWE1ZDktOGY5YzNkOGIwOTViXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg"
+            "poster": "https://m.media-amazon.com/images/M/MV5BYzA1YWZmMjYtMTQ5MC00NmQwLWE1ZDktOGY5YzNkOGIwOTViXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg",
+            "premiere": "Premiär 28 Januari"
           },
           {
             "title": "Poor Things",
@@ -106,7 +114,8 @@
             "kid": false,
             "rating": 5,
             "new": true,
-            "poster": "https://m.media-amazon.com/images/M/MV5BNTE0OGNjYWUtMDBmOC00Mzg1LWE3OTgtMDRjZmViZDU2YWQxXkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_.jpg"
+            "poster": "https://m.media-amazon.com/images/M/MV5BNTE0OGNjYWUtMDBmOC00Mzg1LWE3OTgtMDRjZmViZDU2YWQxXkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_.jpg",
+            "premiere": "Premiär 3 Februari"
           },
           {
             "title": "Role Play",
@@ -118,7 +127,8 @@
             "kid": false,
             "rating": 3,
             "new": true,
-            "poster": "https://m.media-amazon.com/images/M/MV5BMDk3MWVjYzgtYWUzNi00ZGYwLWE0ZDktMDA3YTE5N2MxZGMyXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg" 
+            "poster": "https://m.media-amazon.com/images/M/MV5BMDk3MWVjYzgtYWUzNi00ZGYwLWE0ZDktMDA3YTE5N2MxZGMyXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg",
+            "premiere": "Premiär 4 Februari"
           },
           {
             "title": "The Shawshank Redemption",
