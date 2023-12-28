@@ -11,7 +11,8 @@
           "rating": 5,
           "new": true,
           "poster": "https://m.media-amazon.com/images/M/MV5BZjE1MzJlNjYtNDI3ZS00MzRkLTlhMDYtNDU5YWU3YTI3Yzg0XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg",
-          "premiere": "Premiär 6 Januari"
+          "premiere": "Premiär 6 Januari",
+          "id": 1
         },
         {
             "title": "Priscilla",
@@ -24,7 +25,8 @@
             "rating": 3,
             "new": true,
             "poster": "https://m.media-amazon.com/images/M/MV5BOTQyZTBiMjAtZTNjZi00ZjU0LWFkMTQtMDE3Nzc1MjVmMTM4XkEyXkFqcGdeQXVyMTM1NjM2ODg1._V1_.jpg",
-            "premiere": "Premiär 7 Januari"
+            "premiere": "Premiär 7 Januari",
+            "id": 2
           },
           {
             "title": "Mean Girls",
@@ -37,7 +39,8 @@
             "rating": 2,
             "new": true,
             "poster": "https://m.media-amazon.com/images/M/MV5BODVmYThiNGQtMTQ3Ny00MzQ3LWFkZGItZjU4MDgzZjhjMWZhXkEyXkFqcGdeQXVyNDU1OTUyNTg@._V1_.jpg",
-            "premiere": "Premiär 13 Januari"
+            "premiere": "Premiär 13 Januari",
+            "id": 3
           },
           {
             "title": "The Beekeeper",
@@ -50,7 +53,8 @@
             "rating": 3,
             "new": true,
             "poster": "https://m.media-amazon.com/images/M/MV5BZDkwOTIyZGQtYWNkOS00YzAxLTkwZWUtMzU3YjU4ZDIyYzdlXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
-            "premiere": "Premiär 14 Januari"
+            "premiere": "Premiär 14 Januari",
+            "id": 4
           },
           {
             "title": "Night Swim",
@@ -63,7 +67,8 @@
             "rating": 4,
             "new": true,
             "poster": "https://m.media-amazon.com/images/M/MV5BYzk3NDFiOTUtZGI2OS00NGJhLTkxMWMtNWZiNzI3MjdjOGU2XkEyXkFqcGdeQXVyMjY5ODI4NDk@._V1_.jpg",
-            "premiere": "Premiär 20 Januari"
+            "premiere": "Premiär 20 Januari",
+            "id": 5
           },
           {
             "title": "Anyone But You",
@@ -75,8 +80,9 @@
             "kid": false,
             "rating": 2,
             "new": true,
-            "poster": "https://m.media-amazon.com/images/M/MV5BMDY0NDU5ZDEtNWJlOC00YWNiLThhYmMtMzM2NzRjYTU2YTYyXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg",
-            "premiere": "Premiär 21 Januari"
+            "poster": "https://m.media-amazon.com/images/M/MV5BOWJhNThiNDctMTQxNS00MWQ5LWE5NWQtZWU4ZmY3MmM1MWRjXkEyXkFqcGdeQXVyMTY3ODkyNDkz._V1_FMjpg_UX1000_.jpg",
+            "premiere": "Premiär 21 Januari",
+            "id": 6
           },
           {
             "title": "The Tiger's Apprentice",
@@ -89,7 +95,8 @@
             "rating": 3,
             "new": true,
             "poster": "https://m.media-amazon.com/images/M/MV5BOGFkNTQxZTctMjQ5YS00NWIzLTk5NGQtZDgyZTY5MDA1NWMzXkEyXkFqcGdeQXVyMTM1NjM2ODg1._V1_.jpg",
-            "premiere": "Premiär 27 Januari"
+            "premiere": "Premiär 27 Januari",
+            "id": 7
           },
           {
             "title": "Kung Fu Panda 4",
@@ -101,8 +108,9 @@
             "kid": true,
             "rating": 5,
             "new": true,
-            "poster": "https://m.media-amazon.com/images/M/MV5BYzA1YWZmMjYtMTQ5MC00NmQwLWE1ZDktOGY5YzNkOGIwOTViXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg",
-            "premiere": "Premiär 28 Januari"
+            "poster": "https://m.media-amazon.com/images/M/MV5BZDY0YzI0OTctYjVhYy00MTVhLWE0NTgtYTRmYTBmOTE3YTViXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_FMjpg_UX1000_.jpg",
+            "premiere": "Premiär 28 Januari",
+            "id": 8
           },
           {
             "title": "Poor Things",
@@ -115,7 +123,8 @@
             "rating": 5,
             "new": true,
             "poster": "https://m.media-amazon.com/images/M/MV5BNTE0OGNjYWUtMDBmOC00Mzg1LWE3OTgtMDRjZmViZDU2YWQxXkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_.jpg",
-            "premiere": "Premiär 3 Februari"
+            "premiere": "Premiär 3 Februari",
+            "id": 9
           },
           {
             "title": "Role Play",
@@ -127,8 +136,9 @@
             "kid": false,
             "rating": 3,
             "new": true,
-            "poster": "https://m.media-amazon.com/images/M/MV5BMDk3MWVjYzgtYWUzNi00ZGYwLWE0ZDktMDA3YTE5N2MxZGMyXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg",
-            "premiere": "Premiär 4 Februari"
+            "poster": "https://m.media-amazon.com/images/M/MV5BZWM3YjdhZjQtNWEwMS00YjVhLWFmMDUtMzU0ZTI0OTdkNWExXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_FMjpg_UX1000_.jpg",
+            "premiere": "Premiär 4 Februari",
+            "id": 10
           },
           {
             "title": "The Shawshank Redemption",
@@ -140,7 +150,8 @@
             "kid": false,
             "rating": 5,
             "new": false,
-            "poster": "https://m.media-amazon.com/images/M/MV5BNDE3ODcxYzMtY2YzZC00NmNlLWJiNDMtZDViZWM2MzIxZDYwXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_.jpg"
+            "poster": "https://m.media-amazon.com/images/M/MV5BNDE3ODcxYzMtY2YzZC00NmNlLWJiNDMtZDViZWM2MzIxZDYwXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_.jpg",
+            "id": 11
           },
           {
             "title": "Pulp Fiction",
@@ -152,7 +163,8 @@
             "kid": false,
             "rating": 5,
             "new": false,
-            "poster": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"
+            "poster": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+            "id": 12
           },
           {
             "title": "The Lord of the Rings: The Fellowship of the Ring",
@@ -164,7 +176,8 @@
             "kid": false,
             "rating": 5,
             "new": false,
-            "poster": "https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_.jpg"
+            "poster": "https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_.jpg",
+            "id": 13
           },
           {
             "title": "Terminator 2: Judgment Day",
@@ -176,7 +189,8 @@
             "kid": false,
             "rating": 3,
             "new": false,
-            "poster": "https://m.media-amazon.com/images/M/MV5BMGU2NzRmZjUtOGUxYS00ZjdjLWEwZWItY2NlM2JhNjkxNTFmXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg"
+            "poster": "https://m.media-amazon.com/images/M/MV5BMGU2NzRmZjUtOGUxYS00ZjdjLWEwZWItY2NlM2JhNjkxNTFmXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
+            "id": 14
           },
           {
             "title": "Dune",
@@ -188,7 +202,8 @@
             "kid": false,
             "rating": 4,
             "new": false,
-            "poster": "https://m.media-amazon.com/images/M/MV5BMDQ0NjgyN2YtNWViNS00YjA3LTkxNDktYzFkZTExZGMxZDkxXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg"
+            "poster": "https://m.media-amazon.com/images/M/MV5BMDQ0NjgyN2YtNWViNS00YjA3LTkxNDktYzFkZTExZGMxZDkxXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg",
+            "id": 15
           },
           {
             "title": "Harry Potter and the Philosopher's Stone",
@@ -200,7 +215,8 @@
             "kid": true,
             "rating": 4,
             "new": false,
-            "poster": "https://m.media-amazon.com/images/M/MV5BNmQ0ODBhMjUtNDRhOC00MGQzLTk5MTAtZDliODg5NmU5MjZhXkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_.jpg"
+            "poster": "https://m.media-amazon.com/images/M/MV5BNmQ0ODBhMjUtNDRhOC00MGQzLTk5MTAtZDliODg5NmU5MjZhXkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_.jpg",
+            "id": 16
           },
           {
             "title": "Love and Monsters",
@@ -212,7 +228,8 @@
             "kid": false,
             "rating": 3,
             "new": false,
-            "poster": "https://m.media-amazon.com/images/M/MV5BYWVkMWEyMDUtZTVmOC00MTYxLWE1ZTUtNjk4M2IzMjY2OTIxXkEyXkFqcGdeQXVyMDk5Mzc5MQ@@._V1_FMjpg_UX1000_.jpg"
+            "poster": "https://m.media-amazon.com/images/M/MV5BYWVkMWEyMDUtZTVmOC00MTYxLWE1ZTUtNjk4M2IzMjY2OTIxXkEyXkFqcGdeQXVyMDk5Mzc5MQ@@._V1_FMjpg_UX1000_.jpg",
+            "id": 17
           },
           {
             "title": "Interstellar",
@@ -224,7 +241,8 @@
             "kid": false,
             "rating": 5,
             "new": false,
-            "poster": "https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg"
+            "poster": "https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+            "id": 18
           },
           {
             "title": "Everything Everywhere All at Once",
@@ -236,7 +254,8 @@
             "kid": false,
             "rating": 4,
             "new": false,
-            "poster": "https://m.media-amazon.com/images/M/MV5BYTdiOTIyZTQtNmQ1OS00NjZlLWIyMTgtYzk5Y2M3ZDVmMDk1XkEyXkFqcGdeQXVyMTAzMDg4NzU0._V1_.jpg"
+            "poster": "https://m.media-amazon.com/images/M/MV5BYTdiOTIyZTQtNmQ1OS00NjZlLWIyMTgtYzk5Y2M3ZDVmMDk1XkEyXkFqcGdeQXVyMTAzMDg4NzU0._V1_.jpg",
+            "id": 19
           },
           {
             "title": "The Hunger Games",
@@ -248,7 +267,8 @@
             "kid": false,
             "rating": 3,
             "new": false,
-            "poster": "https://m.media-amazon.com/images/M/MV5BMjA4NDg3NzYxMF5BMl5BanBnXkFtZTcwNTgyNzkyNw@@._V1_.jpg"
+            "poster": "https://m.media-amazon.com/images/M/MV5BMjA4NDg3NzYxMF5BMl5BanBnXkFtZTcwNTgyNzkyNw@@._V1_.jpg",
+            "id": 20
           },
           {
             "title": "Leo",
@@ -260,7 +280,8 @@
             "kid": true,
             "rating": 3,
             "new": false,
-            "poster": "https://m.media-amazon.com/images/M/MV5BNzg1MTNjNDYtOGQ2MS00OTQ3LWE4NzItNDM0NjA3MzI3ZTU0XkEyXkFqcGdeQXVyMTA0MjI3Mzk4._V1_.jpg"
+            "poster": "https://m.media-amazon.com/images/M/MV5BNzg1MTNjNDYtOGQ2MS00OTQ3LWE4NzItNDM0NjA3MzI3ZTU0XkEyXkFqcGdeQXVyMTA0MjI3Mzk4._V1_.jpg",
+            "id": 21
           },
           {
             "title": "The Super Mario Bros",
@@ -272,7 +293,8 @@
             "kid": true,
             "rating": 4,
             "new": false,
-            "poster": "https://m.media-amazon.com/images/M/MV5BOTJhNzlmNzctNTU5Yy00N2YwLThhMjQtZDM0YjEzN2Y0ZjNhXkEyXkFqcGdeQXVyMTEwMTQ4MzU5._V1_.jpg"
+            "poster": "https://m.media-amazon.com/images/M/MV5BOTJhNzlmNzctNTU5Yy00N2YwLThhMjQtZDM0YjEzN2Y0ZjNhXkEyXkFqcGdeQXVyMTEwMTQ4MzU5._V1_.jpg",
+            "id": 22
           },
           {
             "title": "Puss in Boots: The Last Wish",
@@ -284,7 +306,8 @@
             "kid": true,
             "rating": 5,
             "new": false,
-            "poster": "https://m.media-amazon.com/images/M/MV5BMTU2ZWVhMWYtYmI0ZS00NWM0LThhYzItNGM5NjBlNWI1MzgxXkEyXkFqcGdeQXVyMTM4Mjg5MzEw._V1_.jpg"
+            "poster": "https://m.media-amazon.com/images/M/MV5BMTU2ZWVhMWYtYmI0ZS00NWM0LThhYzItNGM5NjBlNWI1MzgxXkEyXkFqcGdeQXVyMTM4Mjg5MzEw._V1_.jpg",
+            "id": 23
           },
           {
             "title": "Paddington 2",
@@ -296,7 +319,8 @@
             "kid": true,
             "rating": 3,
             "new": false,
-            "poster": "https://m.media-amazon.com/images/M/MV5BMmYwNWZlNzEtNjE4Zi00NzQ4LWI2YmUtOWZhNzZhZDYyNmVmXkEyXkFqcGdeQXVyNzYzODM3Mzg@._V1_.jpg"
+            "poster": "https://m.media-amazon.com/images/M/MV5BMmYwNWZlNzEtNjE4Zi00NzQ4LWI2YmUtOWZhNzZhZDYyNmVmXkEyXkFqcGdeQXVyNzYzODM3Mzg@._V1_.jpg",
+            "id": 24
           },
           {
             "title": "The Grinch",
@@ -308,7 +332,8 @@
             "kid": true,
             "rating": 4,
             "new": false,
-            "poster": "https://m.media-amazon.com/images/M/MV5BMGY2YTVhNTItNGIwZi00YjA5LWI0M2YtMDI2YWUwNmY4OTE0XkEyXkFqcGdeQXVyMTYzMDM0NTU@._V1_.jpg"
+            "poster": "https://m.media-amazon.com/images/M/MV5BMGY2YTVhNTItNGIwZi00YjA5LWI0M2YtMDI2YWUwNmY4OTE0XkEyXkFqcGdeQXVyMTYzMDM0NTU@._V1_.jpg",
+            "id": 25
           },
           {
             "title": "Home",
@@ -320,7 +345,8 @@
             "kid": true,
             "rating": 2,
             "new": false,
-            "poster": "https://m.media-amazon.com/images/M/MV5BMjExOTQ4MDMyMV5BMl5BanBnXkFtZTgwMTE3NDM2MzE@._V1_.jpg"
+            "poster": "https://m.media-amazon.com/images/M/MV5BMjExOTQ4MDMyMV5BMl5BanBnXkFtZTgwMTE3NDM2MzE@._V1_.jpg",
+            "id": 26
           },
           {
             "title": "The Boss Baby",
@@ -332,7 +358,8 @@
             "kid": true,
             "rating": 2,
             "new": false,
-            "poster": "https://m.media-amazon.com/images/M/MV5BNTVhMzdiMDgtODk3Zi00MGQyLTkxNGItOWJkZGQ3ZGZlYmE2XkEyXkFqcGdeQXVyODIyOTEyMzY@._V1_.jpg"
+            "poster": "https://m.media-amazon.com/images/M/MV5BNTVhMzdiMDgtODk3Zi00MGQyLTkxNGItOWJkZGQ3ZGZlYmE2XkEyXkFqcGdeQXVyODIyOTEyMzY@._V1_.jpg",
+            "id": 27
           },
           {
             "title": "The Good Dinosaur",
@@ -344,7 +371,8 @@
             "kid": true,
             "rating": 5,
             "new": false,
-            "poster": "https://m.media-amazon.com/images/M/MV5BMTc5MTg2NjQ4MV5BMl5BanBnXkFtZTgwNzcxOTY5NjE@._V1_FMjpg_UX1000_.jpg"
+            "poster": "https://m.media-amazon.com/images/M/MV5BMTc5MTg2NjQ4MV5BMl5BanBnXkFtZTgwNzcxOTY5NjE@._V1_FMjpg_UX1000_.jpg",
+            "id": 28
           },
           {
             "title": "Diary of a Wimpy Kid",
@@ -356,7 +384,8 @@
             "kid": true,
             "rating": 3,
             "new": false,
-            "poster": "https://m.media-amazon.com/images/M/MV5BMTg3NzQ2NDgyNF5BMl5BanBnXkFtZTcwMDc1NzIyMw@@._V1_FMjpg_UX1000_.jpg"
+            "poster": "https://m.media-amazon.com/images/M/MV5BMTg3NzQ2NDgyNF5BMl5BanBnXkFtZTcwMDc1NzIyMw@@._V1_FMjpg_UX1000_.jpg",
+            "id": 29
           },
           {
             "title": "The Polar Express",
@@ -368,7 +397,8 @@
             "kid": true,
             "rating": 5,
             "new": false,
-            "poster": "https://m.media-amazon.com/images/M/MV5BMTM1NTU0NTE4MV5BMl5BanBnXkFtZTcwMTQ0MjEzMw@@._V1_FMjpg_UX1000_.jpg"
+            "poster": "https://m.media-amazon.com/images/M/MV5BMTM1NTU0NTE4MV5BMl5BanBnXkFtZTcwMTQ0MjEzMw@@._V1_FMjpg_UX1000_.jpg",
+            "id": 30
           }
     
         
