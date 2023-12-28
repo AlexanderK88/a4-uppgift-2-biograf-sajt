@@ -1,9 +1,31 @@
 @import url("https://fonts.googleapis.com/css2?family=Monofett&family=Sora:wght@100&display=swap");
 .filmer__card {
-  width: 20vw;
   height: 40vh;
   border: 1px solid black;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 27vw;
 }
+.filmer__card--wrapper {
+  border: 1px solid black;
+  margin-top: 50%;
+  margin-top: auto;
+  height: 50%;
+}
+.filmer__card--title {
+  height: 2em;
+}
+.filmer__card--length {
+  height: 2em;
+}
+.filmer__card--description {
+  height: 2em;
+}
+.filmer__card--button {
+  height: 2em;
+}
+
 * {
   margin: 0;
   padding: 0;

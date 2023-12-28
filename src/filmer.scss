@@ -1,10 +1,33 @@
 .filmer__card{
-    width: 20vw;
     height: 40vh;
     border: 1px solid black;
-    &--wrapper{}
-    &--title{}
-    &--length{}
-    &--description{}
-    &--button{}
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 27vw;
+    &--wrapper{
+        border: 1px solid black;
+        margin-top: 50%;
+        margin-top: auto;
+        height: 50%;
+    }
+    &--title{
+        // border: 1px solid black;
+        height: 2em;
+    }
+    &--length{
+        // border: 1px solid black;
+        height: 2em;
+        
+    }
+    &--description{
+        // border: 1px solid black;
+        height: 2em;
+        
+    }
+    &--button{
+        // border: 1px solid black;
+        height: 2em;
+
+    }
 }
