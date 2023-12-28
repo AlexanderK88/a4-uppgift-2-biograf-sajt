@@ -1,0 +1,66 @@
+{
+    "news": [
+        {
+            "title": "Starship Troopers Reboot: Insekter Kräver Bättre Representation!",
+            "content": "I en oväntad vändning av händelser protesterar de sexbenta utomjordingarna från Starship Troopers-franchisen mot sin framställning i den kommande omstarten. De hävdar att de blivit typsnutna som \"skurkar\" och kräver en mer nyanserad berättelse som utforskar deras sida av den intergalaktiska sagan. Filmproducenterna överväger enligt uppgift att lägga till en sidohandling med en insektoid stödgrupp och en catchy hymn med titeln \"Arachnids Have Feelings Too\"",
+            "published": "9 januari 2024",
+            "image": "https://picsum.photos/200"
+        },
+        {
+            "title": "Jurassic Park 7: Dinosaurier Utvecklar Nya Talanger i en Musikalisk Extravaganza!",
+            "content": "I en överraskande vändning bryter dinosaurierna från Jurassic Park loss från sina actionfyllda roller och omfamnar sina musikaliska talanger i den senaste delen. Filmen kommer att visa en Velociraptor-trask-ensemble, en T-Rex som sjunger ballader och en triceratops-slagverkssektion. Regissören Steven Spielberg har lovat att det enda som är mer skrämmande än de förhistoriska varelserna kommer att vara deras show-stoppande framträdanden.",
+            "published": "24 januari 2024",
+            "image": "https://picsum.photos/200"
+        },
+        {
+            "title": "Marvels Superhjälte-Realityshow: Avengers Sätter ihop... i Ett Kök!",
+            "content": "Flytta på dig, Iron Chef! I ett banbrytande reality-TV-äventyr tar Marvel Studios Avengers in i köket för en kulinarisk uppgörelse. Thors hammare är nu en kökshammare, och Captain America visar upp sina spatelkunskaper. Hulk är ansvarig för salladen, och Iron Man bemästrar konsten av molekylär gastronomi. Med varje superhjälte som kämpar för den eftertraktade titeln \"Ultimate Kitchen Avenger\" förvänta dig fler matstrider än någonsin tidigare.",
+            "published": "7 februari 2024",
+            "image": "https://picsum.photos/200"
+        },
+        {
+            "title": "Romantik-Robotar: Kärlek i Artificiell Intelligens Tidsålder!",
+            "content": "Hollywood surrar av den senaste trenden inom romantiska komedier - kärlekshistorier som involverar medvetna robotar. I denna hjärtevärmande genretwist, parar maskiner med en förmåga för kärleksalgoritmer ihop människor som inte verkar passa ihop. Från obekväma första dejter med malande kretsar till hjärtliga ögonblick mot bakgrund av binära solnedgångar visar Romantik-Robotar att även algoritmer kan ha en förkärlek för kärlek.",
+            "published": "15 februari 2024",
+            "image": "https://picsum.photos/200"
+        },
+        {
+            "title": "Fast & Furious 17: Vin Diesel Tävlar Mot Tiden... Bokstavligt Talat!",
+            "content": "Spänn fast dig för den vildaste Fast & Furious-del än! Vin Diesels Dominic Toretto tävlar inte bara mot pimpade bilar utan också mot fysikens lagar och själva tiden. I en högoktanig intrig måste teamet överlista en skurk som reser genom tiden och försöker omdefiniera bilhistorien. Med gasen i botten och en nypa kvantfysik är denna film inställd på att bryta alla hastighetsbarriärer - och möjligtvis även rymdtidskontinuumet.",
+            "published": "2 mars 2024",
+            "image": "https://picsum.photos/200"
+        }
+    ],
+    "events": [
+        {
+            "title": "Nytt År, Ny Film: Exklusiv Premiärkväll",
+            "content": "Inled det filmiska året med stil! Delta i vår exklusiva premiärkväll med en mycket efterlängtad film innan dess officiella release. Gästerna kommer att få njuta av en röd matta-entré, kompletterande förfriskningar och chansen att vara bland de första att uppleva spänningen av ett nytt år på bioduken.",
+            "published": "3 januari 2024",
+            "image": "https://picsum.photos/200"
+        },
+        {
+            "title": "Lojalitetskort Onsdag: Dubbla Poäng Extravaganza",
+            "content": "Älska filmerna, älska belöningarna! Varje onsdag tjänar biobesökare med lojalitetskort dubbla poäng på biljettköp och snacks. Ackumulerade poäng kan användas för att få gratis biljetter, snacks eller till och med exklusiva bioprodukter och ger trogna besökare en extra anledning att njuta av sina favoritfilmer mitt i veckan.",
+            "published": "1 februari 2024",
+            "image": "https://picsum.photos/200"
+        },
+        {
+            "title": "Dejt Rabatt: Två för En Special",
+            "content": "Krydda upp er dejtkväll! Varje tisdag kan par njuta av ett två-för-en-erbjudande på biobiljetter. Oavsett om det är en romantisk komedi eller ett spännande äventyr, uppmuntrar detta evenemang par att göra biografen till sitt go-to-ställe för en prisvärd och trevlig kväll ute.",
+            "published": "7 mars 2024",
+            "image": "https://picsum.photos/200"
+        },
+        {
+            "title": "Veckans Matiné: Senior Special",
+            "content": "En veckomiddagspresent för våra seniorer! Varje onsdag eftermiddag får seniorer, 60 år och äldre, rabatt på matinéföreställningar. Detta evenemang skapar en avslappnad atmosfär för seniorer att njuta av sina favoritfilmer under lugna timmar, vilket främjar en känsla av gemenskap bland biografgångare i den äldre åldersgruppen.",
+            "published": "1 mars 2024",
+            "image": "https://picsum.photos/200"
+        },
+        {
+            "title": "Student Spotlight Night: Visa upp din kortfilm",
+            "content": "Kameror, action, student! En gång i månaden ägnar biografen en kväll åt lokala studentfilmskapare, vilket ger dem möjlighet att visa upp sina kortfilmer innan huvudfilmen. Detta evenemang stödjer inte bara aspirerande talang utan erbjuder också en unik och mångfaldig filmupplevelse för publiken som är intresserad av att upptäcka nya röster inom filmindustrin.",
+            "published": "7 april 2024",
+            "image": "https://picsum.photos/200"
+        }
+    ]
+}
