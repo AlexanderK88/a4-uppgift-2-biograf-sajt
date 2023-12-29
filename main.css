@@ -113,3 +113,21 @@
   right: 25px;
   cursor: pointer;
 }
+
+.history {
+  background-color: #404040;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 2rem;
+}
+.history__headline {
+  color: #ffffff;
+  margin-bottom: 2rem;
+}
+.history__content {
+  color: #ffffff;
+  text-align: center;
+  max-width: 520px;
+}
