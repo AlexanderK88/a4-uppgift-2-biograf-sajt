@@ -1,109 +1,109 @@
 .header {
-    background-color: $colorOne;
+  background-color: $colorOne;
+  display: flex;
+  justify-content: center;
+
+  &__container {
+    height: 150px;
+    width: 100%;
+    justify-content: space-between;
+    max-width: $extraLarge;
     display: flex;
+    padding: 0 50px;
+  }
+
+  &__topNavigation {
+    display: none;
+    align-items: center;
+    font-size: 30px;
+    gap: 80px;
+
+    @include breakpointMin($medium) {
+      display: flex;
+    }
+  }
+
+  &__link {
+    font-size: 24px;
+    font-weight: 700;
+    color: $colorFive;
+    text-decoration: none;
+
+    &:hover {
+      color: $colorThree;
+    }
+  }
+
+  &__hamburgerMenuContainer {
+    position: fixed;
+    display: flex;
+    align-items: center;
     justify-content: center;
+    min-width: 100%;
+    min-height: 100%;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0);
+    opacity: 0;
+    visibility: hidden;
+    transition:
+      background-color 0.5s,
+      opacity 0.5s,
+      visibility 0.5s;
 
-    &__container {
-        height: 150px;
-        width: 100%;
-        justify-content: space-between;
-        max-width: $extraLarge;
-        display: flex;
-        padding: 0 50px;
+    &.header__hamburgerMenuContainer--open {
+      opacity: 1;
+      visibility: visible;
+      background-color: rgba(255, 255, 255, 0.5);
     }
+  }
 
-    &__topNavigation {
-        display: none;
-        align-items: center;
-        font-size: 30px;
-        gap: 80px;
+  &__hamburgerButtonOpen {
+    position: absolute;
+    top: 55px;
+    right: 25px;
+    cursor: pointer;
 
-        @include breakpointMin($medium) {
-            display: flex;
-        }
+    @include breakpointMin($medium) {
+      display: none;
     }
+  }
 
-    &__link {
-        font-size: 24px;
-        font-weight: 700;
-        color: $colorFive;
-        text-decoration: none;
+  &__hamburgerMenu {
+    position: fixed;
+    display: flex;
+    top: 23px;
+    left: 20px;
+    bottom: 23px;
+    right: 20px;
+    background-color: $colorOne;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.4);
+    opacity: 0;
+    transform: scale(0.8);
+    transition:
+      opacity 0.2s ease 0.1s,
+      transform 0.2s ease 0.1s;
 
-        &:hover {
-            color: $colorThree;
-        }
+    &.header__hamburgerMenu--active {
+      opacity: 1;
+      transform: scale(1);
     }
+  }
 
-    &__hamburgerMenuContainer {
-        position: fixed;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        min-width: 100%;
-        min-height: 100%;
-        top: 0;
-        background-color: rgba(255, 255, 255, 0);
-        opacity: 0;
-        visibility: hidden;
-        transition:
-            background-color 0.5s,
-            opacity 0.5s,
-            visibility 0.5s;
+  &__hamburgerLink {
+    font-size: 36px;
+    font-weight: 700;
+    color: $colorFive;
+    text-decoration: none;
+  }
 
-        &.header__hamburgerMenuContainer--open {
-            opacity: 1;
-            visibility: visible;
-            background-color: rgba(255, 255, 255, 0.5);
-        }
-    }
-
-    &__hamburgerButtonOpen {
-        position: absolute;
-        top: 55px;
-        right: 25px;
-        cursor: pointer;
-
-        @include breakpointMin($medium) {
-            display: none;
-        }
-    }
-
-    &__hamburgerMenu {
-        position: fixed;
-        display: flex;
-        top: 23px;
-        left: 20px;
-        bottom: 23px;
-        right: 20px;
-        background-color: $colorOne;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 50px;
-        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.4);
-        opacity: 0;
-        transform: scale(0.8);
-        transition:
-            opacity 0.2s ease 0.1s,
-            transform 0.2s ease 0.1s;
-
-        &.header__hamburgerMenu--active {
-            opacity: 1;
-            transform: scale(1);
-        }
-    }
-
-    &__hamburgerLink {
-        font-size: 36px;
-        font-weight: 700;
-        color: $colorFive;
-        text-decoration: none;
-    }
-
-    &__hamburgerCloseButton {
-        position: absolute;
-        top: 25px;
-        right: 25px;
-        cursor: pointer;
-    }
+  &__hamburgerCloseButton {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    cursor: pointer;
+  }
 }

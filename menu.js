@@ -5,13 +5,13 @@ const hamburgerCloseButton = document.querySelector(".header__hamburgerCloseButt
 const html = document.querySelector(".html");
 
 hamburgerButton.addEventListener("click", () => {
-    hamburgerMenuContainer.classList.add("header__hamburgerMenuContainer--open");
-    hamburgerMenu.classList.add("header__hamburgerMenu--active");
-    html.classList.add("html--overflowHidden");
+  hamburgerMenuContainer.classList.add("header__hamburgerMenuContainer--open");
+  hamburgerMenu.classList.add("header__hamburgerMenu--active");
+  html.classList.add("html--overflowHidden");
 });
 
 hamburgerCloseButton.addEventListener("click", () => {
-    hamburgerMenuContainer.classList.remove("header__hamburgerMenuContainer--open");
-    hamburgerMenu.classList.remove("header__hamburgerMenu--active");
-    html.classList.remove("html--overflowHidden");
+  hamburgerMenuContainer.classList.remove("header__hamburgerMenuContainer--open");
+  hamburgerMenu.classList.remove("header__hamburgerMenu--active");
+  html.classList.remove("html--overflowHidden");
 });
