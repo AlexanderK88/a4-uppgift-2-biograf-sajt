@@ -1,6 +1,7 @@
 $small: 480px;
-$medium: 998px;
-$large: 1200px;
+$medium: 750px;
+$large: 998px;
+$extraLarge: 1200px;
 
 $colorOne: #333333;
 $colorTwo: #404040;
@@ -10,7 +11,6 @@ $colorFive: #ffffff;
 
 @import url("https://fonts.googleapis.com/css2?family=Monofett&family=Sora:wght@100&display=swap");
 @import "header";
-@import 'filmer';
 
 * {
     margin: 0;
@@ -20,13 +20,30 @@ $colorFive: #ffffff;
 }
 
 @mixin breakpointMin($size) {
-    @media screen and (min-width: $size) {
-        @content;
-    }
+  @media screen and (min-width: $size) {
+    @content;
+  }
 }
 
 @mixin breakpointMax($size) {
-    @media screen and (max-width: $size) {
-        @content;
-    }
+  @media screen and (max-width: $size) {
+    @content;
+  }
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sora", sans-serif;
+}
+
+.html {
+  overflow-x: hidden;
+  &.html--overflowHidden {
+    overflow: hidden;
+  }
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Monofett&family=Sora:wght@100&display=swap");
+@import "header";

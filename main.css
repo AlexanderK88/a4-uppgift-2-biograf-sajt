@@ -1,4 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Monofett&family=Sora:wght@100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sora", sans-serif;
+}
+
+.html {
+  overflow-x: hidden;
+}
+.html.html--overflowHidden {
+  overflow: hidden;
+}
+
 .header {
   background-color: #333333;
   display: flex;
@@ -13,86 +27,89 @@
   padding: 0 50px;
 }
 .header__topNavigation {
-  display: flex;
+  display: none;
   align-items: center;
   font-size: 30px;
   gap: 80px;
 }
+@media screen and (min-width: 750px) {
+  .header__topNavigation {
+    display: flex;
+  }
+}
 .header__link {
   font-size: 24px;
   font-weight: 700;
-  color: white;
+  color: #ffffff;
   text-decoration: none;
 }
 .header__link:hover {
   color: #800020;
 }
-
-body {
+.header__hamburgerMenuContainer {
+  position: fixed;
+  display: flex;
+  align-items: center;
   justify-content: center;
+  min-width: 100%;
+  min-height: 100%;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0);
+  opacity: 0;
+  visibility: hidden;
+  transition:
+    background-color 0.5s,
+    opacity 0.5s,
+    visibility 0.5s;
 }
-
-.filmer__hero {
-  width: 90vw;
-  height: 20vh;
-  border: 1px solid black;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 10px;
+.header__hamburgerMenuContainer.header__hamburgerMenuContainer--open {
+  opacity: 1;
+  visibility: visible;
+  background-color: rgba(255, 255, 255, 0.5);
 }
-.filmer__filter {
+.header__hamburgerButtonOpen {
+  position: absolute;
+  top: 55px;
+  right: 25px;
+  cursor: pointer;
+}
+@media screen and (min-width: 750px) {
+  .header__hamburgerButtonOpen {
+    display: none;
+  }
+}
+.header__hamburgerMenu {
+  position: fixed;
   display: flex;
+  top: 23px;
+  left: 20px;
+  bottom: 23px;
+  right: 20px;
+  background-color: #333333;
   flex-direction: column;
-  margin-right: 0;
-  margin-left: auto;
-  height: 100%;
-  width: 25vw;
-  border: 1px solid black;
-  background-color: #404040;
-  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  transform: scale(0.8);
+  transition:
+    opacity 0.2s ease 0.1s,
+    transform 0.2s ease 0.1s;
 }
-.filmer__filter--sb {
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
+.header__hamburgerMenu.header__hamburgerMenu--active {
+  opacity: 1;
+  transform: scale(1);
 }
-.filmer__filter--btnwrapper {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  height: 80%;
-  width: 100%;
-  align-content: space-around;
-  justify-content: space-around;
-  border-radius: 10px;
-}
-.filmer__filter--btn {
-  height: 2em;
-  width: 5em;
-  background-color: #800020;
-  border-radius: 20px;
+.header__hamburgerLink {
+  font-size: 36px;
+  font-weight: 700;
   color: #ffffff;
+  text-decoration: none;
 }
-.filmer__main {
-  width: 90vw;
-  height: 50vh;
-  border: 1px solid black;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.footer {
-  height: 20vh;
-  width: 90vw;
-  margin-left: auto;
-  margin-right: auto;
-  border: 1px solid black;
-  background-color: #800020;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Sora", sans-serif;
+.header__hamburgerCloseButton {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  cursor: pointer;
 }
