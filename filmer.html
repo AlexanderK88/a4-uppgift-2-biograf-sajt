@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="html">
 
 <head>
     <meta charset='utf-8'>
@@ -7,20 +7,33 @@
     <title>GGG Filmer</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <!-- <script src='main.js' defer></script> -->
+    <script src='menu.js' defer></script> 
 </head>
 
-<body>
+<body class="body">
     <header class="header">
         <div class="header__container">
-            <img src="assets/Header_logo.png" alt="Header Logo" class="header__logo" />
-            <nav class="header__topNavigation">
-                <a href="#" class="header__link">Filmer</a>
-                <a href="#" class="header__link">Om oss</a>
-                <a href="#" class="header__link">Nyheter</a>
-            </nav>
+          <img src="../assets/headerLogo.png" alt="Header Logo" class="header__logo" />
+          <nav class="header__topNavigation">
+            <a href="#" class="header__link">Filmer</a>
+            <a href="#" class="header__link">Om oss</a>
+            <a href="#" class="header__link">Nyheter</a>
+          </nav>
+          <img src="../assets/hamburgerButtonOpen.png" class="header__hamburgerButtonOpen" />
         </div>
-    </header>
+        <nav class="header__hamburgerMenuContainer">
+          <div class="header__hamburgerMenu">
+            <a href="#" class="header__hamburgerLink">Filmer</a>
+            <a href="#" class="header__hamburgerLink">Om oss</a>
+            <a href="#" class="header__hamburgerLink">Nyheter</a>
+            <img
+              src="../assets/hamburgerButtonClose.png"
+              class="header__hamburgerCloseButton"
+              alt="Hamburger menu close button"
+            />
+          </div>
+        </nav>
+      </header>
     <section class="filmer__hero">
         <div class="filmer__filter">
             <div class="filmer__filter--btnwrapper">
