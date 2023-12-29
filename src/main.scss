@@ -11,13 +11,13 @@ $colorFive: #ffffff;
 
 @import url("https://fonts.googleapis.com/css2?family=Monofett&family=Sora:wght@100&display=swap");
 @import "header";
-@import 'filmer';
+@import "filmer";
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Sora", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sora", sans-serif;
 }
 
 @mixin breakpointMin($size) {

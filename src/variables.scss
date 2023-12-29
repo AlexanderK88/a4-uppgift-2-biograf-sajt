@@ -9,15 +9,14 @@ $colorThree: #800020;
 $colorFour: #7c7773;
 $colorFive: #ffffff;
 
-
 @mixin breakpointMin($size) {
-    @media screen and (min-width: $size) {
-      @content;
-    }
+  @media screen and (min-width: $size) {
+    @content;
   }
-  
-  @mixin breakpointMax($size) {
-    @media screen and (max-width: $size) {
-      @content;
-    }
+}
+
+@mixin breakpointMax($size) {
+  @media screen and (max-width: $size) {
+    @content;
   }
+}

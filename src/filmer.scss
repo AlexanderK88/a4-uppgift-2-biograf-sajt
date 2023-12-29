@@ -1,93 +1,89 @@
-body{
-    justify-content: center;
-    background-color: $colorOne;
+body {
+  justify-content: center;
+  background-color: $colorOne;
 }
-.filmer{
-    &__hero{
-        width: 90vw;
-        height: 26vh;
-        border: 1px solid $colorTwo;
-        margin-left: auto;
-        margin-right: auto;
-        border-radius: 10px;
-
-    }
-    &__filter{
-        display: flex;
-        flex-direction: column;
-        margin-right: 0;
-        margin-left: auto;
-        height: 100%;
-        width: 25vw;
-        min-width: 120px;
-
-        
-        background-color: $colorTwo;
-        border-radius: 10px;
-        &--sb{
-            width: 90%;
-            height: 4vh;
-            margin-left: auto;
-            margin-right: auto;
-            border-radius: 20px;
-            border: hidden;
-        }   
-        &--btnwrapper{
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            height: 80%;
-            width: 100%;
-            align-content: space-around;
-            justify-content: space-around;
-            border-radius: 10px;
-            // border: 10px solid white;
-        }
-        
-        &--btn{
-            display: flex;
-            height: 2em;
-            width: 6em;
-            background-color: $colorThree;
-            border-radius: 20px;
-            color: $colorFive;
-            justify-content: center;
-            align-items: center;
-
-            @include breakpointMin($medium){
-                margin: auto 5px;
-            }
-            @include breakpointMin($large){
-                width: 7em;
-                height: 3em;
-                margin: 1vh 0vh;
-            }
-            
-            @include breakpointMin($extraLarge){
-                width: 8em;
-    
-            }
-        }
-        &--btn:hover{
-            opacity: 90%;
-        }
-    }
-    &__main{
-        width: 100vw;
-        height: 50vh;
-        
-        margin-left: auto;
-        margin-right: auto;
-        background-color: $colorTwo;
-        margin-top: 6vh;
-        
-    }
-}
-.footer{
-    height: 20vh;
-    width: 100vw;
+.filmer {
+  &__hero {
+    width: 90vw;
+    height: 26vh;
+    border: 1px solid $colorTwo;
     margin-left: auto;
     margin-right: auto;
-    
-    background-color: $colorThree;
+    border-radius: 10px;
+  }
+  &__filter {
+    display: flex;
+    flex-direction: column;
+    margin-right: 0;
+    margin-left: auto;
+    height: 100%;
+    width: 25vw;
+    min-width: 120px;
+
+    background-color: $colorTwo;
+    border-radius: 10px;
+    &--sb {
+      width: 90%;
+      height: 4vh;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 20px;
+      border: hidden;
+    }
+    &--btnwrapper {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      height: 80%;
+      width: 100%;
+      align-content: space-around;
+      justify-content: space-around;
+      border-radius: 10px;
+      // border: 10px solid white;
+    }
+
+    &--btn {
+      display: flex;
+      height: 2em;
+      width: 6em;
+      background-color: $colorThree;
+      border-radius: 20px;
+      color: $colorFive;
+      justify-content: center;
+      align-items: center;
+
+      @include breakpointMin($medium) {
+        margin: auto 5px;
+      }
+      @include breakpointMin($large) {
+        width: 7em;
+        height: 3em;
+        margin: 1vh 0vh;
+      }
+
+      @include breakpointMin($extraLarge) {
+        width: 8em;
+      }
+    }
+    &--btn:hover {
+      opacity: 90%;
+    }
+  }
+  &__main {
+    width: 100vw;
+    height: 50vh;
+
+    margin-left: auto;
+    margin-right: auto;
+    background-color: $colorTwo;
+    margin-top: 6vh;
+  }
+}
+.footer {
+  height: 20vh;
+  width: 100vw;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: $colorThree;
 }
