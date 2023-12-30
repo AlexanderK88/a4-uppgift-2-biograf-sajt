@@ -119,8 +119,6 @@
   justify-content: center;
   background-color: #800020;
   height: 750px;
-  position: fixed;
-  bottom: 0;
   width: 100%;
 }
 @media screen and (min-width: 998px) {
