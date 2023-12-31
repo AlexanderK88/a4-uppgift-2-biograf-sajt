@@ -88,3 +88,28 @@ if (window.location.pathname.includes("movieCard")) {
     // Call the renderMovies function to populate the container with movie cards
     renderMovies(container);
 }
+
+//Function to make sure no movie-card has display = none
+const addVisibility = (movies) => {
+    //Iterating through each movie-card and removing a class that gives them display = none.
+    movies.forEach(movie, () => {
+        movie.classList.remove("no-visibility");
+    });
+};
+
+//adding an event-listener to in this case a button or something thats clickable.
+document.querySelector(".new").addEventListener("click", () => {
+    //selecting all movie-cards and running the addvisibility function on them
+    const cards = document.querySelectorAll(".movie-card");
+    addVisibility(cards);
+
+    //Iterating through each movie-card and checking if the card contains the class "new" or not
+    cards.forEach((card) => {
+        const isNew = card.querySelector(".movie-new");
+
+        if (!isNew.classList.contains("new")) {
+            //If the card doesnt contain the class new the card gets a class that gives the card display = none.
+            card.classList.add("no-visi");
+        }
+    });
+});
