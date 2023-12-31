@@ -10,6 +10,21 @@ body {
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
+    background-size: cover;
+    background-position: center 50%;
+    overflow: hidden;
+    &--title {
+      position: relative;
+      top: 80%;
+      left: 0;
+      background-color: $colorTwo;
+      width: 50%;
+      height: 20%;
+      float: left;
+      opacity: 40%;
+      color: $colorFive;
+      font-size: 2em;
+    }
   }
   &__filter {
     display: flex;
@@ -19,7 +34,6 @@ body {
     height: 100%;
     width: 25vw;
     min-width: 120px;
-
     background-color: $colorTwo;
     border-radius: 10px;
     &--sb {
