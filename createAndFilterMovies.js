@@ -113,3 +113,8 @@ document.querySelector(".new").addEventListener("click", () => {
         }
     });
 });
+
+document.querySelector(".all").addEventListener("click", () => {
+    const cards = document.querySelectorAll(".movie-card");
+    addVisibility(cards);
+});
