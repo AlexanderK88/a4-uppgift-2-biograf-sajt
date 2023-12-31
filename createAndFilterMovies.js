@@ -1,0 +1,90 @@
+//Fetch data from the specified file using the fetchData function
+const data = await fetchData("../movies.json").catch((error) => console.log(error.message));
+
+//function to fetch data from specific file using fetch API
+async function fetchData(file) {
+    //Use the fetch function to make an async http request
+    const response = await fetch(file);
+
+    //check if response status is ok
+    if (response.ok) {
+        return await response.json();
+    } else {
+        throw new Error(`Something went wrong with the request. Error code: ${response.status}`);
+    }
+}
+//checking the data
+console.log(data);
+
+//Giving movies the value of all the movies in the data variable.
+const movies = data.movies;
+console.log(movies);
+
+// Function to create a movie card element based on a movie object
+function createMovie(movie) {
+    // Get the movie card template from the HTML
+    const movieTemplate = document.getElementById("movieCardTemplate");
+    // Clone the template content to create a new movie card
+    const template = movieTemplate.content.cloneNode(true);
+    // Select various elements within the template to populate with movie data
+    const card = template.querySelector(".movie-card");
+    const image = template.querySelector(".movie-poster");
+    const title = template.querySelector(".movie-title");
+    const rating = template.querySelector(".movie-rating");
+    const kid = template.querySelector(".movie-kid");
+    const isNew = template.querySelector(".movie-new");
+
+    //const actors = template.querySelector('.movie-actors');
+    //const description = template.querySelector('.movie-description');
+    //const premiere = template.querySelector(".movie-premiere")
+    //const year = template.querySelector(".movie-release-year");
+    //const genre = template.querySelector(".movie-genre");
+    //const director = template.querySelector(".movie-director");
+
+    // Set attributes and content based on the movie object
+    card.id = movie.id;
+    image.src = movie.poster;
+    title.textContent = movie.title;
+    rating.textContent = movie.rating;
+    /*actors.textContent = movie.actors
+    premiere.textContent = movie.premiere
+    description.textContent = movie.description;
+    actors.textContent = movie.actors;
+    genre.textContent = movie.genre;
+    year.textContent = movie.release_year;
+    director.textContent = movie.director;*/
+
+    // Apply additional classes for kid-friendly and new movies
+    if (movie.kid) {
+        kid.classList.add("kid");
+    }
+    if (movie.new) {
+        isNew.classList.add("new");
+    }
+
+    // Return the populated movie card template
+    return template;
+}
+
+// Function to render a list of movies into a specified container
+function renderMovies(container) {
+    // Check if the movies array is defined
+    if (!movies) return;
+
+    // Select the movies to render (in this case, all movies in the 'movies' array)
+    let moviesToRender = movies;
+
+    // Iterate through each movie and create/render the corresponding movie card
+    moviesToRender.forEach((movie) => {
+        const movieElement = createMovie(movie);
+        container.appendChild(movieElement);
+    });
+}
+
+// Check if the current page's URL includes "movieCard", will be something else for the finished product
+if (window.location.pathname.includes("movieCard")) {
+    // Select the container element where movies will be rendered
+    const container = document.querySelector(".container");
+    // Call the renderMovies function to populate the container with movie cards
+    renderMovies(container);
+}
