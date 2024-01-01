@@ -1,41 +1,12 @@
-.filmer__card {
-  height: 40vh;
-  border: 1px solid black;
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
-  width: 27vw;
-  &--wrapper {
-    border: 1px solid black;
-    margin-top: 50%;
-    margin-top: auto;
-    height: 50%;
-  }
-  &--title {
-    // border: 1px solid black;
-    height: 2em;
-  }
-  &--length {
-    // border: 1px solid black;
-    height: 2em;
-  }
-  &--description {
-    // border: 1px solid black;
-    height: 2em;
-  }
-  &--button {
-    // border: 1px solid black;
-    height: 2em;
-  }
-}
 body {
   justify-content: center;
+  background-color: $colorOne;
 }
 .filmer {
   &__hero {
     width: 90vw;
-    height: 20vh;
-    border: 1px solid black;
+    height: 26vh;
+    border: 1px solid $colorTwo;
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
@@ -47,13 +18,17 @@ body {
     margin-left: auto;
     height: 100%;
     width: 25vw;
-    border: 1px solid black;
+    min-width: 120px;
+
     background-color: $colorTwo;
     border-radius: 10px;
     &--sb {
       width: 90%;
+      height: 4vh;
       margin-left: auto;
       margin-right: auto;
+      border-radius: 20px;
+      border: hidden;
     }
     &--btnwrapper {
       display: flex;
@@ -64,31 +39,51 @@ body {
       align-content: space-around;
       justify-content: space-around;
       border-radius: 10px;
-
       // border: 10px solid white;
     }
 
     &--btn {
+      display: flex;
       height: 2em;
-      width: 5em;
+      width: 6em;
       background-color: $colorThree;
       border-radius: 20px;
       color: $colorFive;
+      justify-content: center;
+      align-items: center;
+
+      @include breakpointMin($medium) {
+        margin: auto 5px;
+      }
+      @include breakpointMin($large) {
+        width: 7em;
+        height: 3em;
+        margin: 1vh 0vh;
+      }
+
+      @include breakpointMin($extraLarge) {
+        width: 8em;
+      }
+    }
+    &--btn:hover {
+      opacity: 90%;
     }
   }
   &__main {
-    width: 90vw;
+    width: 100vw;
     height: 50vh;
-    border: 1px solid black;
+
     margin-left: auto;
     margin-right: auto;
+    background-color: $colorTwo;
+    margin-top: 6vh;
   }
 }
 .footer {
   height: 20vh;
-  width: 90vw;
+  width: 100vw;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid black;
+
   background-color: $colorThree;
 }
