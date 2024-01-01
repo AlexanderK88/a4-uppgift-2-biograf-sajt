@@ -1,85 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Sora:wght@400;500;700&display=swap");
-body {
-  justify-content: center;
-  background-color: #333333;
-}
-
-.filmer__hero {
-  width: 90vw;
-  height: 26vh;
-  border: 1px solid #404040;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 10px;
-}
-.filmer__filter {
-  display: flex;
-  flex-direction: column;
-  margin-right: 0;
-  margin-left: auto;
-  height: 100%;
-  width: 25vw;
-  min-width: 120px;
-  background-color: #404040;
-  border-radius: 10px;
-}
-.filmer__filter--sb {
-  width: 90%;
-  height: 4vh;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 20px;
-  border: hidden;
-}
-.filmer__filter--btnwrapper {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  height: 80%;
-  width: 100%;
-  align-content: space-around;
-  justify-content: space-around;
-  border-radius: 10px;
-}
-.filmer__filter--btn {
-  display: flex;
-  height: 2em;
-  width: 6em;
-  background-color: #800020;
-  border-radius: 20px;
-  color: #ffffff;
-  justify-content: center;
-  align-items: center;
-}
-@media screen and (min-width: 750px) {
-  .filmer__filter--btn {
-    margin: auto 5px;
-  }
-}
-@media screen and (min-width: 998px) {
-  .filmer__filter--btn {
-    width: 7em;
-    height: 3em;
-    margin: 1vh 0vh;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .filmer__filter--btn {
-    width: 8em;
-  }
-}
-.filmer__filter--btn:hover {
-  opacity: 90%;
-}
-.filmer__main {
-  width: 100vw;
-  height: 50vh;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #404040;
-  margin-top: 6vh;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -138,7 +57,10 @@ body {
   background-color: rgba(255, 255, 255, 0);
   opacity: 0;
   visibility: hidden;
-  transition: background-color 0.5s, opacity 0.5s, visibility 0.5s;
+  transition:
+    background-color 0.5s,
+    opacity 0.5s,
+    visibility 0.5s;
 }
 .header__hamburgerMenuContainer.header__hamburgerMenuContainer--open {
   opacity: 1;
@@ -171,7 +93,9 @@ body {
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.4);
   opacity: 0;
   transform: scale(0.8);
-  transition: opacity 0.2s ease 0.1s, transform 0.2s ease 0.1s;
+  transition:
+    opacity 0.2s ease 0.1s,
+    transform 0.2s ease 0.1s;
 }
 .header__hamburgerMenu.header__hamburgerMenu--active {
   opacity: 1;
@@ -261,4 +185,93 @@ body {
   color: #ffffff;
   text-decoration: none;
   margin-bottom: 10px;
+}
+
+body {
+  justify-content: center;
+  background-color: #333333;
+}
+
+.filmer__hero {
+  width: 90vw;
+  height: 26vh;
+  border: 1px solid #404040;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+.filmer__filter {
+  display: flex;
+  flex-direction: column;
+  margin-right: 0;
+  margin-left: auto;
+  height: 100%;
+  width: 25vw;
+  min-width: 120px;
+  background-color: #404040;
+  border-radius: 10px;
+}
+.filmer__filter--sb {
+  width: 90%;
+  height: 4vh;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  border: hidden;
+}
+.filmer__filter--btnwrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 80%;
+  width: 100%;
+  align-content: space-around;
+  justify-content: space-around;
+  border-radius: 10px;
+}
+.filmer__filter--btn {
+  display: flex;
+  height: 2em;
+  width: 6em;
+  background-color: #800020;
+  border-radius: 20px;
+  color: #ffffff;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 750px) {
+  .filmer__filter--btn {
+    margin: auto 5px;
+  }
+}
+@media screen and (min-width: 998px) {
+  .filmer__filter--btn {
+    width: 7em;
+    height: 3em;
+    margin: 1vh 0vh;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .filmer__filter--btn {
+    width: 8em;
+  }
+}
+.filmer__filter--btn:hover {
+  opacity: 90%;
+}
+.filmer__main {
+  width: 100vw;
+  height: 50vh;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #404040;
+  margin-top: 6vh;
+}
+
+.footer {
+  height: 20vh;
+  width: 100vw;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #800020;
 }
