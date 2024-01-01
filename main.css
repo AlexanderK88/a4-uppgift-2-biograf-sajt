@@ -44,10 +44,7 @@
   background-color: rgba(255, 255, 255, 0);
   opacity: 0;
   visibility: hidden;
-  transition:
-    background-color 0.5s,
-    opacity 0.5s,
-    visibility 0.5s;
+  transition: background-color 0.5s, opacity 0.5s, visibility 0.5s;
 }
 .header__hamburgerMenuContainer.header__hamburgerMenuContainer--open {
   opacity: 1;
@@ -80,9 +77,7 @@
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.4);
   opacity: 0;
   transform: scale(0.8);
-  transition:
-    opacity 0.2s ease 0.1s,
-    transform 0.2s ease 0.1s;
+  transition: opacity 0.2s ease 0.1s, transform 0.2s ease 0.1s;
 }
 .header__hamburgerMenu.header__hamburgerMenu--active {
   opacity: 1;
@@ -108,7 +103,7 @@ body {
 
 .filmer__hero {
   width: 90vw;
-  height: 26vh;
+  height: 30vh;
   border: 1px solid #404040;
   margin-left: auto;
   margin-right: auto;
@@ -122,12 +117,23 @@ body {
   top: 80%;
   left: 0;
   background-color: #404040;
-  width: 50%;
-  height: 20%;
+  width: fit-content;
+  max-width: 70%;
+  height: fit-content;
   float: left;
-  opacity: 40%;
+  opacity: 70%;
   color: #ffffff;
   font-size: 2em;
+  border-radius: 0 20px 20px 0;
+  padding-right: 1em;
+  word-wrap: break-word;
+}
+@media screen and (max-width: 750px) {
+  .filmer__hero--title {
+    font-size: 16px;
+    max-width: 50%;
+    top: 90%;
+  }
 }
 .filmer__filter {
   display: flex;
@@ -139,6 +145,8 @@ body {
   min-width: 120px;
   background-color: #404040;
   border-radius: 10px;
+  z-index: 3;
+  position: relative;
 }
 .filmer__filter--sb {
   width: 90%;
@@ -270,10 +278,7 @@ body {
   background-color: rgba(255, 255, 255, 0);
   opacity: 0;
   visibility: hidden;
-  transition:
-    background-color 0.5s,
-    opacity 0.5s,
-    visibility 0.5s;
+  transition: background-color 0.5s, opacity 0.5s, visibility 0.5s;
 }
 .header__hamburgerMenuContainer.header__hamburgerMenuContainer--open {
   opacity: 1;
@@ -306,9 +311,7 @@ body {
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.4);
   opacity: 0;
   transform: scale(0.8);
-  transition:
-    opacity 0.2s ease 0.1s,
-    transform 0.2s ease 0.1s;
+  transition: opacity 0.2s ease 0.1s, transform 0.2s ease 0.1s;
 }
 .header__hamburgerMenu.header__hamburgerMenu--active {
   opacity: 1;
