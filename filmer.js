@@ -37,7 +37,10 @@ function randomHeroImage() {
   var titleTextNode = document.createTextNode(randomElement.title);
 
   console.log(randomElement.title.length);
-  if (randomElement.title.length > 30) {
+  if (randomElement.title.length >= 40) {
+    filmerTitle.classList.add("xlarge");
+    console.log("added extra large");
+  } else if (randomElement.title.length >= 30) {
     filmerTitle.classList.add("large");
     console.log("added large");
   }

@@ -147,7 +147,12 @@ body {
 @media screen and (max-width: 998px) {
   .filmer__hero .large {
     max-width: 60%;
-    top: 55%;
+    top: 55% !important;
+  }
+}
+@media screen and (max-width: 1270px) {
+  .filmer__hero .xlarge {
+    top: 65% !important;
   }
 }
 .filmer__filter {

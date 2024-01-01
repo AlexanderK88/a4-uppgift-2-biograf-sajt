@@ -48,10 +48,17 @@ body {
     .large {
       @include breakpointMax($large) {
         max-width: 60%;
-        top: 55%;
+        top: 55% !important;
+      }
+    }
+
+    .xlarge {
+      @include breakpointMax($xxLarge) {
+        top: 65% !important;
       }
     }
   }
+
   &__filter {
     display: flex;
     flex-direction: column;
