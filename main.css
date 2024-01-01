@@ -223,7 +223,13 @@ body {
 }
 @media screen and (min-width: 1200px) {
   .filmer__filter--btn {
-    width: 8em;
+    width: 45%;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .filmer__filter--btn {
+    width: 45%;
+    height: 4em;
   }
 }
 .filmer__filter--btn:hover {
@@ -236,12 +242,4 @@ body {
   margin-right: auto;
   background-color: #404040;
   margin-top: 6vh;
-}
-
-.footer {
-  height: 20vh;
-  width: 100vw;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #800020;
 }
