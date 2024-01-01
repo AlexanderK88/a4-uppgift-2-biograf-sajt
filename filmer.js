@@ -36,6 +36,11 @@ function randomHeroImage() {
   // Create a text node with the content from randomElement.title
   var titleTextNode = document.createTextNode(randomElement.title);
 
+  console.log(randomElement.title.length);
+  if (randomElement.title.length > 30) {
+    filmerTitle.classList.add("large");
+    console.log("added large");
+  }
   // Append the text node to .filmer__hero--title
   filmerTitle.appendChild(titleTextNode);
 }

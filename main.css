@@ -114,7 +114,6 @@ body {
 }
 .filmer__hero--title {
   position: relative;
-  top: 80%;
   left: 0;
   background-color: #404040;
   width: fit-content;
@@ -128,11 +127,27 @@ body {
   padding-right: 1em;
   word-wrap: break-word;
 }
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 480px) {
   .filmer__hero--title {
     font-size: 16px;
     max-width: 50%;
-    top: 90%;
+    top: 80%;
+  }
+}
+@media screen and (min-width: 480px) {
+  .filmer__hero--title {
+    top: 65%;
+  }
+}
+@media screen and (min-width: 750px) {
+  .filmer__hero--title {
+    top: 80%;
+  }
+}
+@media screen and (max-width: 998px) {
+  .filmer__hero .large {
+    max-width: 60%;
+    top: 55%;
   }
 }
 .filmer__filter {

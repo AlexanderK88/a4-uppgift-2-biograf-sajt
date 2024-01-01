@@ -18,7 +18,7 @@ body {
 
     &--title {
       position: relative;
-      top: 80%;
+      // top: 80%;
       left: 0;
       background-color: $colorTwo;
       width: fit-content;
@@ -33,10 +33,22 @@ body {
       // line-height: 1.7em;
       word-wrap: break-word;
 
-      @include breakpointMax($medium) {
+      @include breakpointMax($small) {
         font-size: 16px;
         max-width: 50%;
-        top: 90%;
+        top: 80%;
+      }
+      @include breakpointMin($small) {
+        top: 65%;
+      }
+      @include breakpointMin($medium) {
+        top: 80%;
+      }
+    }
+    .large {
+      @include breakpointMax($large) {
+        max-width: 60%;
+        top: 55%;
       }
     }
   }
