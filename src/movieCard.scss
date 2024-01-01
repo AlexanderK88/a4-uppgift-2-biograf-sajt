@@ -1,0 +1,71 @@
+.movie-card {
+    width: 200px; /* Adjust the width as needed */
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+
+    .movie-card__poster {
+        width: 100%;
+        max-height: 300px;
+        border-radius: 5px 5px 0 0; /* Rounded corners only at the top */
+    }
+
+    .movie-card__title,
+    .movie-card__rating {
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .movie-card__title {
+        font-size: 16px;
+        color: #333;
+        background-color: $colorFour;
+    }
+
+    .movie-card__rating {
+        font-weight: bold;
+        color: #ff9800;
+        background-color: $colorFour;
+        margin-right: auto;
+    }
+
+    .movie-card__details {
+        display: none; /* Hidden by default */
+        padding: 10px;
+        background-color: $colorFour;
+        border-radius: 0 0 5px 5px; /* Rounded corners only at the bottom */
+    }
+
+    .movie-card__info {
+        margin: 5px 0;
+
+        // Specific styles for the different info
+        &--director {
+        }
+
+        &--release-year {
+        }
+
+        &--premiere {
+        }
+
+        &--actors {
+        }
+
+        &--premiere {
+        }
+
+        &--kid {
+        }
+
+        &--new  {
+        }
+
+        &--genre {
+        }
+    }
+}
