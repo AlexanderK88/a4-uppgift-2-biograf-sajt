@@ -71,5 +71,61 @@ function createInfoContainer(informationFeed) {
   viewMore.classList.add("news__containerCardBox--newsButton");
   box.appendChild(viewMore);
 
+  viewMore.addEventListener("click", function () {
+    openModal(informationFeed);
+  });
+
   return card;
+}
+
+function openModal(informationFeed) {
+  document.querySelector("html").classList.add("html--overflowHidden");
+  const overlay = document.createElement("div");
+  overlay.classList.add("newsOverlay");
+  document.body.appendChild(overlay);
+  overlay.addEventListener("click", function (event) {
+    if (event.target === overlay) {
+      closeModal();
+    }
+  });
+
+  const modal = document.createElement("div");
+  modal.classList.add("newsOverlay__modal");
+  overlay.appendChild(modal);
+
+  const exitButton = document.createElement("button");
+  exitButton.classList.add("newsOverlay__modal--exitButton");
+  modal.appendChild(exitButton);
+  exitButton.addEventListener("click", function () {
+    closeModal();
+  });
+
+  const picture = document.createElement("img");
+  picture.src = informationFeed.image;
+  picture.classList.add("newsOverlay__modal--image");
+  modal.appendChild(picture);
+
+  const title = document.createElement("h3");
+  title.textContent = informationFeed.title;
+  title.classList.add("newsOverlay__modal--title");
+  modal.appendChild(title);
+
+  const published = document.createElement("small");
+  published.textContent = informationFeed.published;
+  published.classList.add("newsOverlay__modal--published");
+  modal.appendChild(published);
+
+  const content = document.createElement("p");
+  content.textContent = informationFeed.content;
+  content.classList.add("newsOverlay__modal--content");
+  modal.appendChild(content);
+  return overlay;
+}
+
+function closeModal() {
+  document.querySelector("html").classList.remove("html--overflowHidden");
+  const overlay = document.querySelector(".newsOverlay");
+  if (overlay) {
+    overlay.remove();
+  }
 }
