@@ -1,96 +1,113 @@
 .movie-card {
-    width: 200px; /* Adjust the width as needed */
-    height: 320px;
-    margin-bottom: 40px;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: transform 0.3s ease-in-out;
+  width: 300px; /* Adjust the width as needed */
+  height: 400px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: transform 0.3s ease-in-out;
+  background-color: gray;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+
+  &__poster {
+    margin: 0;
+    width: 100%;
+    height: 323px;
+    border-radius: 5px 5px 0 0; /* Rounded corners only at the top */
+    @include breakpointMin($medium) {
+      height: 323px;
+    }
+  }
+
+  &__prime {
+    margin: 0;
     background-color: gray;
+    display: grid;
+  }
+
+  &__title,
+  &__rating {
+    text-align: center;
+    margin: 0;
+  }
+
+  &__title {
+    font-size: 16px;
+    color: white;
+    background-color: gray;
+  }
+
+  &__rating {
+    font-weight: bold;
+    color: white;
+    background-color: gray;
+  }
+
+  &__button {
+    width: 100%;
+    padding: 8px;
+    background-color: #800020;
+    border: 0px;
+    border-radius: 0 0 4px 4px; /* Rounded corners only at the bottom */
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    margin: 0px auto;
 
     &:hover {
-        transform: scale(1.05);
+      background-color: #4f0114;
+    }
+  }
+
+  &__details {
+    display: none; /* Hidden by default */
+    padding: 10px;
+    background-color: gray;
+    border-radius: 0 0 5px 5px;
+  }
+
+  &__info {
+    margin: 5px 0;
+
+    // Specific styles for the different info
+    &--director {
     }
 
-    &__poster {
-        margin: 0;
-        width: 100%;
-        height: 250px;
-        border-radius: 5px 5px 0 0; /* Rounded corners only at the top */
+    &--release-year {
     }
 
-    &__prime {
-        margin: 0;
-        background-color: gray;
-        display: grid;
+    &--premiere {
     }
 
-    &__title,
-    &__rating {
-        text-align: center;
-        margin: 0;
+    &--actors {
     }
 
-    &__title {
-        font-size: 16px;
-        color: white;
-        background-color: gray;
+    &--premiere {
     }
 
-    &__rating {
-        font-weight: bold;
-        color: white;
-        background-color: gray;
+    &--kid {
     }
 
-    &__button {
-        width: 100%;
-        padding: 8px;
-        background-color: #800020;
-        border: 0px;
-        border-radius: 0 0 4px 4px; /* Rounded corners only at the bottom */
-        color: white;
-        font-weight: 700;
-        cursor: pointer;
-        margin: 0px auto;
-
-        &:hover {
-            background-color: #4f0114;
-        }
+    &--new  {
     }
 
-    &__details {
-        display: none; /* Hidden by default */
-        padding: 10px;
-        background-color: gray;
-        border-radius: 0 0 5px 5px;
+    &--genre {
     }
+  }
+}
 
-    &__info {
-        margin: 5px 0;
+.filmer__main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 30px;
 
-        // Specific styles for the different info
-        &--director {
-        }
+  overflow: scroll;
 
-        &--release-year {
-        }
-
-        &--premiere {
-        }
-
-        &--actors {
-        }
-
-        &--premiere {
-        }
-
-        &--kid {
-        }
-
-        &--new  {
-        }
-
-        &--genre {
-        }
-    }
+  @include breakpointMin($extraLarge) {
+    gap: 40px;
+  }
 }

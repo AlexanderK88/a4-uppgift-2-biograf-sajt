@@ -10,32 +10,33 @@ $colorFour: #7c7773;
 $colorFive: #ffffff;
 
 @mixin breakpointMin($size) {
-    @media screen and (min-width: $size) {
-        @content;
-    }
+  @media screen and (min-width: $size) {
+    @content;
+  }
 }
 
 @mixin breakpointMax($size) {
-    @media screen and (max-width: $size) {
-        @content;
-    }
+  @media screen and (max-width: $size) {
+    @content;
+  }
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Sora", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sora", sans-serif;
 }
 
 .html {
-    overflow-x: hidden;
-    &.html--overflowHidden {
-        overflow: hidden;
-    }
+  overflow-x: hidden;
+  &.html--overflowHidden {
+    overflow: hidden;
+  }
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Sora:wght@400;500;700&display=swap");
 @import "header";
 @import "footer";
 @import "filmer";
+@import "movieCard.scss";

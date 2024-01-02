@@ -1,50 +1,71 @@
 <!doctype html>
 <html class="html">
-    <head>
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title>GGG Filmer</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-        <script src="menu.js" defer></script>
-    </head>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>GGG Filmer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="menu.js" defer></script>
+    <script src="createAndFilterMovies.js" type="module" defer></script>
+  </head>
+  <body class="body">
+    <header class="header">
+      <div class="header__container">
+        <img src="../assets/headerLogo.png" alt="Header Logo" class="header__logo" />
+        <nav class="header__topNavigation">
+          <a href="#" class="header__link">Filmer</a>
+          <a href="#" class="header__link">Om oss</a>
+          <a href="#" class="header__link">Nyheter</a>
+        </nav>
+        <img src="../assets/hamburgerButtonOpen.png" class="header__hamburgerButtonOpen" />
+      </div>
+      <nav class="header__hamburgerMenuContainer">
+        <div class="header__hamburgerMenu">
+          <a href="#" class="header__hamburgerLink">Filmer</a>
+          <a href="#" class="header__hamburgerLink">Om oss</a>
+          <a href="#" class="header__hamburgerLink">Nyheter</a>
+          <img
+            src="../assets/hamburgerButtonClose.png"
+            class="header__hamburgerCloseButton"
+            alt="Hamburger menu close button"
+          />
+        </div>
+      </nav>
+    </header>
+    <section class="filmer__hero">
+      <div class="filmer__filter">
+        <div class="filmer__filter--btnwrapper">
+          <div class="filmer__filter--btn available">Aktuellt</div>
+          <div class="filmer__filter--btn upcoming">Kommande</div>
+          <div class="filmer__filter--btn">Populära</div>
+          <div class="filmer__filter--btn">Barn</div>
+        </div>
+        <input class="filmer__filter--sb" placeholder="Movie Searchbar" />
+      </div>
+    </section>
+    <main class="filmer__main"></main>
+    <footer class="footer"></footer>
 
-    <body class="body">
-        <header class="header">
-            <div class="header__container">
-                <img src="../assets/headerLogo.png" alt="Header Logo" class="header__logo" />
-                <nav class="header__topNavigation">
-                    <a href="#" class="header__link">Filmer</a>
-                    <a href="#" class="header__link">Om oss</a>
-                    <a href="#" class="header__link">Nyheter</a>
-                </nav>
-                <img src="../assets/hamburgerButtonOpen.png" class="header__hamburgerButtonOpen" />
-            </div>
-            <nav class="header__hamburgerMenuContainer">
-                <div class="header__hamburgerMenu">
-                    <a href="#" class="header__hamburgerLink">Filmer</a>
-                    <a href="#" class="header__hamburgerLink">Om oss</a>
-                    <a href="#" class="header__hamburgerLink">Nyheter</a>
-                    <img
-                        src="../assets/hamburgerButtonClose.png"
-                        class="header__hamburgerCloseButton"
-                        alt="Hamburger menu close button"
-                    />
-                </div>
-            </nav>
-        </header>
-        <section class="filmer__hero">
-            <div class="filmer__filter">
-                <div class="filmer__filter--btnwrapper">
-                    <div class="filmer__filter--btn">Aktuellt</div>
-                    <div class="filmer__filter--btn">Kommande</div>
-                    <div class="filmer__filter--btn">Populära</div>
-                    <div class="filmer__filter--btn">Barn</div>
-                </div>
-                <input class="filmer__filter--sb" placeholder="Movie Searchbar" />
-            </div>
-        </section>
-        <main class="filmer__main"></main>
-        <footer class="footer"></footer>
-    </body>
+    <template id="movie-card-template">
+      <div class="movie-card">
+        <img class="movie-card__poster" src="" alt="Movie Poster" />
+        <div class="movie-card__prime">
+          <h2 class="movie-card__title"></h2>
+          <span class="movie-card__rating"></span>
+        </div>
+        <div class="movie-card__details">
+          <p class="movie-card__info--director"></p>
+          <p class="movie-card__info--release-year"></p>
+          <p class="movie-card__info--genre"></p>
+          <p class="movie-card__info--actors"></p>
+          <p class="movie-card__info--description"></p>
+          <p class="movie-card__info--kid"></p>
+          <p class="movie-card__info--new"></p>
+          <p class="movie-card__info--premiere"></p>
+        </div>
+        <button class="movie-card__button">Boka här</button>
+      </div>
+    </template>
+  </body>
 </html>
