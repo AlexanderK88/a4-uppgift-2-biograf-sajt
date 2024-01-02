@@ -11,11 +11,17 @@
     margin-bottom: 2rem;
   }
 
+  &__sectionContainer {
+    background-color: $colorTwo;
+    border-radius: 15px;
+  }
+
   &__introductionContainer {
     background-color: $colorThree;
     display: flex;
     justify-content: center;
     width: 100%;
+    border-radius: 15px;
   }
 
   &__introduction {
@@ -33,6 +39,8 @@
     justify-content: space-evenly;
     align-items: center;
     padding: 2rem 2rem;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
   }
 
   &__logosContainer--inner {
