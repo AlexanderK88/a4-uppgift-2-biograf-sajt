@@ -1,6 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Monofett&family=Sora:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Sora:wght@400;500;700&display=swap");
-
 .news {
   background-color: #404040;
   display: flex;
@@ -166,20 +164,25 @@
   height: 150px;
   width: 100%;
   justify-content: space-between;
-  max-width: 998px;
+  max-width: 1200px;
   display: flex;
   padding: 0 50px;
 }
 .header__topNavigation {
-  display: flex;
+  display: none;
   align-items: center;
   font-size: 30px;
   gap: 80px;
 }
+@media screen and (min-width: 750px) {
+  .header__topNavigation {
+    display: flex;
+  }
+}
 .header__link {
   font-size: 24px;
   font-weight: 700;
-  color: white;
+  color: #ffffff;
   text-decoration: none;
 }
 .header__link:hover {
