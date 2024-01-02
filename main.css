@@ -196,10 +196,7 @@
   background-color: rgba(255, 255, 255, 0);
   opacity: 0;
   visibility: hidden;
-  transition:
-    background-color 0.5s,
-    opacity 0.5s,
-    visibility 0.5s;
+  transition: background-color 0.5s, opacity 0.5s, visibility 0.5s;
 }
 .header__hamburgerMenuContainer.header__hamburgerMenuContainer--open {
   opacity: 1;
@@ -232,9 +229,7 @@
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.4);
   opacity: 0;
   transform: scale(0.8);
-  transition:
-    opacity 0.2s ease 0.1s,
-    transform 0.2s ease 0.1s;
+  transition: opacity 0.2s ease 0.1s, transform 0.2s ease 0.1s;
 }
 .header__hamburgerMenu.header__hamburgerMenu--active {
   opacity: 1;
