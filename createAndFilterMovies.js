@@ -100,7 +100,7 @@ const addVisibility = (movies) => {
   });
 };
 
-//adding an event-listener to in this case a button or something thats clickable.
+//adding an event-listener to a button
 document.querySelector(".upcoming").addEventListener("click", () => {
   //selecting all movie-cards and running the addvisibility function on them
   const cards = document.querySelectorAll(".movie-card");
@@ -112,6 +112,23 @@ document.querySelector(".upcoming").addEventListener("click", () => {
 
     if (!isNew.classList.contains("new")) {
       //If the card doesnt contain the class new the card gets display = none.
+      card.style.display = "none";
+    }
+  });
+});
+
+//adding an event-listener to a button
+document.querySelector(".available").addEventListener("click", () => {
+  //selecting all movie-cards and running the addvisibility function on them
+  const cards = document.querySelectorAll(".movie-card");
+  addVisibility(cards);
+
+  //Iterating through each movie-card and checking if the card contains the class "new" or not
+  cards.forEach((card) => {
+    const isNew = card.querySelector(".movie-card__info--new");
+
+    if (isNew.classList.contains("new")) {
+      //If the card contains the class new the card gets display = none.
       card.style.display = "none";
     }
   });
