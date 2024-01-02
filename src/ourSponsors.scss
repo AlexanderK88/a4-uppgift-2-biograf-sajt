@@ -1,0 +1,31 @@
+.sponsors {
+  background-color: $colorOne;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 2rem;
+
+  &__headline {
+    color: $colorFive;
+    margin-bottom: 2rem;
+  }
+
+  &__introduction {
+    background-color: $colorThree;
+    color: $colorFive;
+    text-align: center;
+    width: 100%;
+    padding: 5rem 2rem;
+  }
+
+  &__logosContainer {
+    background-color: $colorTwo;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 2rem;
+  }
+}
