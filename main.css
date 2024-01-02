@@ -1,6 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Monofett&family=Sora:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Sora:wght@400;500;700&display=swap");
-
 .news {
   background-color: #404040;
   display: flex;
@@ -143,6 +141,62 @@
   filter: brightness(90%);
 }
 
+.newsOverlay {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.newsOverlay::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(2px);
+  z-index: 100;
+}
+.newsOverlay__modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: 100%;
+  z-index: 101;
+  color: #ffffff;
+  background-color: #333333;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 10px;
+  overflow-y: auto;
+}
+@media screen and (min-width: 750px) {
+  .newsOverlay__modal {
+    width: 50%;
+  }
+}
+.newsOverlay__modal--exitButton {
+  height: 20px;
+  width: 20px;
+  border: none;
+  background-size: cover;
+  background-color: transparent;
+  background-image: url("assets/hamburgerButtonClose.png");
+  align-self: flex-end;
+  padding: 10px;
+}
+.newsOverlay__modal--image {
+  width: 100%;
+  margin: 20px 0 10px;
+}
+.newsOverlay__modal--title {
+  margin: 0 0 2.5px;
+}
+.newsOverlay__modal--published {
+  margin: 0 0 10px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -184,68 +238,6 @@
 }
 .header__link:hover {
   color: #800020;
-}
-.header__hamburgerMenuContainer {
-  position: fixed;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-width: 100%;
-  min-height: 100%;
-  top: 0;
-  background-color: rgba(255, 255, 255, 0);
-  opacity: 0;
-  visibility: hidden;
-  transition: background-color 0.5s, opacity 0.5s, visibility 0.5s;
-}
-.header__hamburgerMenuContainer.header__hamburgerMenuContainer--open {
-  opacity: 1;
-  visibility: visible;
-  background-color: rgba(255, 255, 255, 0.5);
-}
-.header__hamburgerButtonOpen {
-  position: absolute;
-  top: 55px;
-  right: 25px;
-  cursor: pointer;
-}
-@media screen and (min-width: 750px) {
-  .header__hamburgerButtonOpen {
-    display: none;
-  }
-}
-.header__hamburgerMenu {
-  position: fixed;
-  display: flex;
-  top: 23px;
-  left: 20px;
-  bottom: 23px;
-  right: 20px;
-  background-color: #333333;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 50px;
-  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.4);
-  opacity: 0;
-  transform: scale(0.8);
-  transition: opacity 0.2s ease 0.1s, transform 0.2s ease 0.1s;
-}
-.header__hamburgerMenu.header__hamburgerMenu--active {
-  opacity: 1;
-  transform: scale(1);
-}
-.header__hamburgerLink {
-  font-size: 36px;
-  font-weight: 700;
-  color: #ffffff;
-  text-decoration: none;
-}
-.header__hamburgerCloseButton {
-  position: absolute;
-  top: 25px;
-  right: 25px;
-  cursor: pointer;
 }
 
 .footer {
