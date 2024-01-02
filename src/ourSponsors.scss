@@ -11,11 +11,17 @@
     margin-bottom: 2rem;
   }
 
-  &__introduction {
+  &__introductionContainer {
     background-color: $colorThree;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  &__introduction {
     color: $colorFive;
     text-align: center;
-    width: 100%;
+    max-width: 850px;
     padding: 5rem 2rem;
   }
 
@@ -24,8 +30,29 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    padding: 5rem 2rem;
+    padding: 2rem 2rem;
+  }
+
+  &__logosContainer--inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 810px;
+  }
+
+  &__logo {
+    border-radius: 4px;
+    margin: 0.7rem;
+    width: 100px;
+    height: 70px;
+  }
+
+  &__img {
+    border-radius: 4px;
+    width: 100px;
+    height: 70px;
   }
 }
