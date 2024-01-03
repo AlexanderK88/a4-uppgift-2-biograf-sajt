@@ -165,10 +165,10 @@
   height: 100%;
   z-index: 101;
   color: #ffffff;
-  background-color: #333333;
+  background-color: #7c7773;
   display: flex;
   flex-direction: column;
-  padding: 10px 10px;
+  padding: 20px 10px;
   overflow-y: auto;
 }
 @media screen and (min-width: 750px) {
