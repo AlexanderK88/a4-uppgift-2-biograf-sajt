@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Sora:wght@400;500;700&display=swap");
 .news {
   background-color: #404040;
@@ -591,9 +592,113 @@ body {
 }
 .filmer__main {
   width: 100vw;
-  height: 50vh;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
   background-color: #404040;
   margin-top: 6vh;
+}
+
+.movie-card {
+  width: 300px; /* Adjust the width as needed */
+  height: 400px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: transform 0.3s ease-in-out;
+  background-color: #7c7773;
+}
+.movie-card:hover {
+  transform: scale(1.05);
+}
+.movie-card__poster {
+  margin: 0;
+  width: 100%;
+  height: 323px;
+  border-radius: 5px 5px 0 0; /* Rounded corners only at the top */
+}
+@media screen and (min-width: 750px) {
+  .movie-card__poster {
+    height: 323px;
+  }
+}
+.movie-card__prime {
+  margin: 0;
+  background-color: #7c7773;
+  display: grid;
+}
+.movie-card__title,
+.movie-card__rating {
+  text-align: center;
+  margin: 0;
+}
+.movie-card__title {
+  font-size: 16px;
+  color: white;
+  background-color: #7c7773;
+}
+.movie-card__rating {
+  font-weight: bold;
+  color: white;
+  background-color: #7c7773;
+}
+.movie-card__button {
+  width: 100%;
+  padding: 8px;
+  background-color: #800020;
+  border: 0px;
+  border-radius: 0 0 4px 4px; /* Rounded corners only at the bottom */
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  margin: 0px auto;
+}
+.movie-card__button:hover {
+  background-color: #860021;
+}
+.movie-card__details {
+  display: none; /* Hidden by default */
+  padding: 10px;
+  background-color: #7c7773;
+  border-radius: 0 0 5px 5px;
+}
+.movie-card__info {
+  margin: 5px 0;
+  /*&--director {
+  }
+
+  &--release-year {
+  }
+
+  &--premiere {
+  }
+
+  &--actors {
+  }
+
+  &--premiere {
+  }
+
+  &--kid {
+  }
+
+  &--new  {
+  }
+
+  &--genre {
+  }*/
+}
+
+.filmer__main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 30px;
+  overflow: scroll;
+}
+@media screen and (min-width: 1200px) {
+  .filmer__main {
+    gap: 40px;
+  }
 }
