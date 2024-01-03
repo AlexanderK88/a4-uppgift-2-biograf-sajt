@@ -127,3 +127,4 @@ function closeModal() {
   if (overlay) {
     overlay.remove();
   }
+}

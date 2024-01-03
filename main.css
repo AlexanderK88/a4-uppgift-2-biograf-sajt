@@ -311,6 +311,7 @@
   right: 25px;
   cursor: pointer;
 }
+
 .history {
   background-color: #404040;
   display: flex;
@@ -327,6 +328,8 @@
   color: #ffffff;
   text-align: center;
   max-width: 520px;
+}
+
 .footer {
   display: flex;
   justify-content: center;
