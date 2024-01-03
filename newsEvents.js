@@ -70,7 +70,6 @@ function createInfoContainer(informationFeed) {
   viewMore.textContent = "Läs mer";
   viewMore.classList.add("news__containerCardBox--newsButton");
   box.appendChild(viewMore);
-
   viewMore.addEventListener("click", function () {
     openModal(informationFeed);
   });
@@ -128,4 +127,3 @@ function closeModal() {
   if (overlay) {
     overlay.remove();
   }
-}

@@ -311,7 +311,22 @@
   right: 25px;
   cursor: pointer;
 }
-
+.history {
+  background-color: #404040;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 2rem;
+}
+.history__headline {
+  color: #ffffff;
+  margin-bottom: 2rem;
+}
+.history__content {
+  color: #ffffff;
+  text-align: center;
+  max-width: 520px;
 .footer {
   display: flex;
   justify-content: center;
@@ -383,4 +398,93 @@
   color: #ffffff;
   text-decoration: none;
   margin-bottom: 10px;
+}
+
+body {
+  justify-content: center;
+  background-color: #333333;
+}
+
+.filmer__hero {
+  width: 90vw;
+  height: 26vh;
+  border: 1px solid #404040;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+.filmer__filter {
+  display: flex;
+  flex-direction: column;
+  margin-right: 0;
+  margin-left: auto;
+  height: 100%;
+  width: 25vw;
+  min-width: 120px;
+  background-color: #404040;
+  border-radius: 10px;
+}
+.filmer__filter--sb {
+  width: 90%;
+  height: 4vh;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  border: hidden;
+}
+.filmer__filter--btnwrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 80%;
+  width: 100%;
+  align-content: space-around;
+  justify-content: space-around;
+  border-radius: 10px;
+}
+.filmer__filter--btn {
+  display: flex;
+  height: 2em;
+  width: 6em;
+  background-color: #800020;
+  border-radius: 20px;
+  color: #ffffff;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 750px) {
+  .filmer__filter--btn {
+    margin: auto 5px;
+  }
+}
+@media screen and (min-width: 998px) {
+  .filmer__filter--btn {
+    width: 7em;
+    height: 3em;
+    margin: 1vh 0vh;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .filmer__filter--btn {
+    width: 8em;
+  }
+}
+.filmer__filter--btn:hover {
+  opacity: 90%;
+}
+.filmer__main {
+  width: 100vw;
+  height: 50vh;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #404040;
+  margin-top: 6vh;
+}
+
+.footer {
+  height: 20vh;
+  width: 100vw;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #800020;
 }
