@@ -6,7 +6,7 @@
   cursor: pointer;
   border-radius: 5px;
   transition: transform 0.3s ease-in-out;
-  background-color: gray;
+  background-color: $colorTwo;
 
   &:hover {
     transform: scale(1.05);
@@ -24,7 +24,7 @@
 
   &__prime {
     margin: 0;
-    background-color: gray;
+    background-color: $colorTwo;
     display: grid;
   }
 
@@ -37,19 +37,19 @@
   &__title {
     font-size: 16px;
     color: white;
-    background-color: gray;
+    background-color: $colorTwo;
   }
 
   &__rating {
     font-weight: bold;
     color: white;
-    background-color: gray;
+    background-color: $colorTwo;
   }
 
   &__button {
     width: 100%;
     padding: 8px;
-    background-color: #800020;
+    background-color: $colorThree;
     border: 0px;
     border-radius: 0 0 4px 4px; /* Rounded corners only at the bottom */
     color: white;
@@ -58,14 +58,14 @@
     margin: 0px auto;
 
     &:hover {
-      background-color: #4f0114;
+      background-color: #860021;
     }
   }
 
   &__details {
     display: none; /* Hidden by default */
     padding: 10px;
-    background-color: gray;
+    background-color: $colorTwo;
     border-radius: 0 0 5px 5px;
   }
 
