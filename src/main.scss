@@ -21,8 +21,6 @@ $colorFive: #ffffff;
   }
 }
 
-@import "newsEvents.scss";
-
 * {
   margin: 0;
   padding: 0;
@@ -41,3 +39,4 @@ $colorFive: #ffffff;
 @import "header";
 @import "footer";
 @import "filmer";
+@import "newsEvents.scss";
