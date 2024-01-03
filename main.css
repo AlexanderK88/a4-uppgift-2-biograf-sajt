@@ -284,7 +284,7 @@ body {
   cursor: pointer;
   border-radius: 5px;
   transition: transform 0.3s ease-in-out;
-  background-color: #404040;
+  background-color: #7c7773;
 }
 .movie-card:hover {
   transform: scale(1.05);
@@ -302,7 +302,7 @@ body {
 }
 .movie-card__prime {
   margin: 0;
-  background-color: #404040;
+  background-color: #7c7773;
   display: grid;
 }
 .movie-card__title,
@@ -313,12 +313,12 @@ body {
 .movie-card__title {
   font-size: 16px;
   color: white;
-  background-color: #404040;
+  background-color: #7c7773;
 }
 .movie-card__rating {
   font-weight: bold;
   color: white;
-  background-color: #404040;
+  background-color: #7c7773;
 }
 .movie-card__button {
   width: 100%;
@@ -337,7 +337,7 @@ body {
 .movie-card__details {
   display: none; /* Hidden by default */
   padding: 10px;
-  background-color: #404040;
+  background-color: #7c7773;
   border-radius: 0 0 5px 5px;
 }
 .movie-card__info {

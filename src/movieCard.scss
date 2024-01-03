@@ -6,7 +6,7 @@
   cursor: pointer;
   border-radius: 5px;
   transition: transform 0.3s ease-in-out;
-  background-color: $colorTwo;
+  background-color: $colorFour;
 
   &:hover {
     transform: scale(1.05);
@@ -24,7 +24,7 @@
 
   &__prime {
     margin: 0;
-    background-color: $colorTwo;
+    background-color: $colorFour;
     display: grid;
   }
 
@@ -37,13 +37,13 @@
   &__title {
     font-size: 16px;
     color: white;
-    background-color: $colorTwo;
+    background-color: $colorFour;
   }
 
   &__rating {
     font-weight: bold;
     color: white;
-    background-color: $colorTwo;
+    background-color: $colorFour;
   }
 
   &__button {
@@ -65,7 +65,7 @@
   &__details {
     display: none; /* Hidden by default */
     padding: 10px;
-    background-color: $colorTwo;
+    background-color: $colorFour;
     border-radius: 0 0 5px 5px;
   }
 
