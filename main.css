@@ -61,7 +61,10 @@
   background-color: rgba(255, 255, 255, 0);
   opacity: 0;
   visibility: hidden;
-  transition: background-color 0.5s, opacity 0.5s, visibility 0.5s;
+  transition:
+    background-color 0.5s,
+    opacity 0.5s,
+    visibility 0.5s;
 }
 .header__hamburgerMenuContainer.header__hamburgerMenuContainer--open {
   opacity: 1;
@@ -94,7 +97,9 @@
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.4);
   opacity: 0;
   transform: scale(0.8);
-  transition: opacity 0.2s ease 0.1s, transform 0.2s ease 0.1s;
+  transition:
+    opacity 0.2s ease 0.1s,
+    transform 0.2s ease 0.1s;
 }
 .header__hamburgerMenu.header__hamburgerMenu--active {
   opacity: 1;
@@ -129,6 +134,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #800020;
   justify-content: flex-start;
   margin-top: 50px;
   width: 100%;
@@ -264,14 +270,6 @@ body {
   margin-right: auto;
   background-color: #404040;
   margin-top: 6vh;
-}
-
-.footer {
-  height: 20vh;
-  width: 100vw;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #800020;
 }
 
 .news {
