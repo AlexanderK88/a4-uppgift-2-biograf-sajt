@@ -141,6 +141,62 @@
   filter: brightness(90%);
 }
 
+.newsOverlay {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.newsOverlay::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(2px);
+  z-index: 100;
+}
+.newsOverlay__modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: 100%;
+  z-index: 101;
+  color: #ffffff;
+  background-color: #7c7773;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 10px;
+  overflow-y: auto;
+}
+@media screen and (min-width: 750px) {
+  .newsOverlay__modal {
+    width: 50%;
+  }
+}
+.newsOverlay__modal--exitButton {
+  height: 20px;
+  width: 20px;
+  border: none;
+  background-size: cover;
+  background-color: transparent;
+  background-image: url("assets/hamburgerButtonClose.png");
+  align-self: flex-end;
+  padding: 10px;
+}
+.newsOverlay__modal--image {
+  width: 100%;
+  margin: 20px 0 10px;
+}
+.newsOverlay__modal--title {
+  margin: 0 0 2.5px;
+}
+.newsOverlay__modal--published {
+  margin: 0 0 10px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -256,6 +312,7 @@
   right: 25px;
   cursor: pointer;
 }
+
 .history {
   background-color: #404040;
   display: flex;
@@ -272,6 +329,8 @@
   color: #ffffff;
   text-align: center;
   max-width: 520px;
+}
+
 .footer {
   display: flex;
   justify-content: center;
