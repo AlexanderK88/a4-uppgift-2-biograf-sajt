@@ -149,3 +149,22 @@ function truncText(element, maxLength) {
     element.textContent = truncatedText;
   }
 }
+
+document.querySelector(".popular").addEventListener("click", () => {
+  const cards = document.querySelectorAll(".movie-card");
+
+  const sortedCards = Array.from(cards).sort((a, b) => {
+    const ratingA = parseFloat(a.querySelector(".movie-card__rating").textContent);
+    const ratingB = parseFloat(b.querySelector(".movie-card__rating").textContent);
+
+    return ratingB - ratingA; // Sort in descending order
+  });
+
+  const container = document.querySelector(".filmer__main");
+  container.innerHTML = ""; // Clear the container
+  sortedCards.forEach((card) => {
+    container.appendChild(card);
+  });
+
+  addVisibility(container.children);
+});
