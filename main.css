@@ -261,7 +261,7 @@ body {
 }
 .filmer__main {
   width: 100vw;
-  height: 50vh;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
   background-color: #404040;
