@@ -1,0 +1,19 @@
+.history {
+  background-color: $colorTwo;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 2rem;
+
+  &__headline {
+    color: $colorFive;
+    margin-bottom: 2rem;
+  }
+
+  &__content {
+    color: $colorFive;
+    text-align: center;
+    max-width: 520px;
+  }
+}
