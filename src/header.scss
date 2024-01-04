@@ -1,5 +1,3 @@
-@import "variables.scss";
-
 .header {
   background-color: $colorOne;
   display: flex;
@@ -12,6 +10,11 @@
     max-width: $extraLarge;
     display: flex;
     padding: 0 50px;
+  }
+
+  &__logo {
+    width: 100%;
+    height: 150px;
   }
 
   &__topNavigation {

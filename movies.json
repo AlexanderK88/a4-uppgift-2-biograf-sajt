@@ -63,7 +63,7 @@
             "genre": ["Rysare"],
             "actors": ["Wyatt Russell", "Amélie Hoeferle"],
             "description": "A woman swimming in her pool at night is terrorized by an evil spirit.",
-            "kid": true,
+            "kid": false,
             "rating": 4,
             "new": true,
             "poster": "https://m.media-amazon.com/images/M/MV5BYzk3NDFiOTUtZGI2OS00NGJhLTkxMWMtNWZiNzI3MjdjOGU2XkEyXkFqcGdeQXVyMjY5ODI4NDk@._V1_.jpg",

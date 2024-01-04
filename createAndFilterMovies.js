@@ -167,4 +167,17 @@ document.querySelector(".popular").addEventListener("click", () => {
   });
 
   addVisibility(container.children);
-});
+  });
+
+document.querySelector(".kids").addEventListener("click", () => {
+  const cards = document.querySelectorAll(".movie-card");
+  addVisibility(cards);
+
+  cards.forEach((card) => {
+    const kidElement = card.querySelector(".movie-card__info--kid");
+    console.log(kidElement);
+    if (!kidElement.classList.contains("kid")) {
+      card.style.display = "none";
+    }
+  });
+  });
