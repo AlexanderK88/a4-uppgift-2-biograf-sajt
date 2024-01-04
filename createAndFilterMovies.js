@@ -149,3 +149,16 @@ function truncText(element, maxLength) {
     element.textContent = truncatedText;
   }
 }
+
+document.querySelector(".kids").addEventListener("click", () => {
+  const cards = document.querySelectorAll(".movie-card");
+  addVisibility(cards);
+
+  cards.forEach((card) => {
+    const kidElement = card.querySelector(".movie-card__info--kid");
+    console.log(kidElement);
+    if (!kidElement.classList.contains("kid")) {
+      card.style.display = "none";
+    }
+  });
+});
