@@ -29,7 +29,8 @@
   }
 
   &__title,
-  &__rating {
+  &__rating,
+  &__pre-rating {
     text-align: center;
     margin: 0;
   }
@@ -40,7 +41,8 @@
     background-color: $colorFour;
   }
 
-  &__rating {
+  &__rating,
+  &__pre-rating {
     font-weight: bold;
     color: white;
     background-color: $colorFour;

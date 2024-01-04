@@ -624,7 +624,8 @@ body {
   display: grid;
 }
 .movie-card__title,
-.movie-card__rating {
+.movie-card__rating,
+.movie-card__pre-rating {
   text-align: center;
   margin: 0;
 }
@@ -633,7 +634,8 @@ body {
   color: white;
   background-color: #7c7773;
 }
-.movie-card__rating {
+.movie-card__rating,
+.movie-card__pre-rating {
   font-weight: bold;
   color: white;
   background-color: #7c7773;
