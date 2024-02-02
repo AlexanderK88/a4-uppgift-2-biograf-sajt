@@ -1,0 +1,135 @@
+@import "variables.scss";
+
+body {
+  justify-content: center;
+  background-color: $colorOne;
+}
+.filmer {
+  &__hero {
+    width: 90vw;
+    height: 30vh;
+    border: 1px solid $colorTwo;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center 25%;
+    overflow: hidden;
+
+    &--title {
+      position: relative;
+      // top: 80%;
+      left: 0;
+      background-color: $colorTwo;
+      width: fit-content;
+      max-width: 70%;
+      height: fit-content;
+      float: left;
+      opacity: 70%;
+      color: $colorFive;
+      font-size: 2em;
+      border-radius: 0 20px 20px 0;
+      padding-right: 1em;
+      // line-height: 1.7em;
+      word-wrap: break-word;
+
+      @include breakpointMax($small) {
+        font-size: 16px;
+        max-width: 50%;
+        top: 80%;
+      }
+      @include breakpointMin($small) {
+        top: 65%;
+      }
+      @include breakpointMin($medium) {
+        top: 80%;
+      }
+    }
+    .large {
+      @include breakpointMax($large) {
+        max-width: 60%;
+        top: 55% !important;
+      }
+    }
+
+    .xlarge {
+      @include breakpointMax($xxLarge) {
+        top: 65% !important;
+      }
+    }
+  }
+
+  &__filter {
+    display: flex;
+    flex-direction: column;
+    margin-right: 0;
+    margin-left: auto;
+    height: 100%;
+    width: 25vw;
+    min-width: 120px;
+    background-color: $colorTwo;
+    border-radius: 10px;
+    z-index: 3;
+    position: relative;
+
+    &--sb {
+      width: 90%;
+      height: 4vh;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 20px;
+      border: hidden;
+    }
+    &--btnwrapper {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      height: 80%;
+      width: 100%;
+      align-content: space-around;
+      justify-content: space-around;
+      border-radius: 10px;
+      // border: 10px solid white;
+    }
+
+    &--btn {
+      display: flex;
+      height: 2em;
+      width: 6em;
+      background-color: $colorThree;
+      border-radius: 20px;
+      color: $colorFive;
+      justify-content: center;
+      align-items: center;
+
+      @include breakpointMin($medium) {
+        margin: auto 5px;
+      }
+      @include breakpointMin($large) {
+        width: 7em;
+        height: 3em;
+        margin: 1vh 0vh;
+      }
+
+      @include breakpointMin($extraLarge) {
+        width: 45%;
+      }
+      @include breakpointMin($desktop) {
+        width: 45%;
+        height: 4em;
+      }
+    }
+    &--btn:hover {
+      opacity: 90%;
+    }
+  }
+  &__main {
+    width: 100vw;
+    height: auto;
+
+    margin-left: auto;
+    margin-right: auto;
+    background-color: $colorTwo;
+    margin-top: 6vh;
+  }
+}

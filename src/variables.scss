@@ -1,0 +1,24 @@
+$small: 480px;
+$medium: 750px;
+$large: 998px;
+$extraLarge: 1200px;
+$xxLarge: 1270px;
+$desktop: 1600px;
+
+$colorOne: #333333;
+$colorTwo: #404040;
+$colorThree: #800020;
+$colorFour: #7c7773;
+$colorFive: #ffffff;
+
+@mixin breakpointMin($size) {
+  @media screen and (min-width: $size) {
+    @content;
+  }
+}
+
+@mixin breakpointMax($size) {
+  @media screen and (max-width: $size) {
+    @content;
+  }
+}

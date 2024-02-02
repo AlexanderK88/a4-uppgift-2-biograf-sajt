@@ -3,13 +3,14 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Bio i Göteborg - Kino</title>
+    <title>GGG Filmer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js" defer></script>
     <script src="menu.js" defer></script>
+    <script src="filmer.js" defer></script>
+    <script src="createAndFilterMovies.js" type="module" defer></script>
   </head>
-  <body>
+  <body class="body">
     <header class="header">
       <div class="header__container">
         <a href="index.html"
@@ -35,11 +36,19 @@
         </div>
       </nav>
     </header>
-    <section class="hero">
-        <img src="assets/Hero_FirstPage.jpg" alt="Image of cinema chairs" class="hero__Image">
+    <section class="filmer__hero">
+      <div class="filmer__hero--title"></div>
+      <div class="filmer__filter">
+        <div class="filmer__filter--btnwrapper">
+          <div class="filmer__filter--btn available">Aktuellt</div>
+          <div class="filmer__filter--btn upcoming">Kommande</div>
+          <div class="filmer__filter--btn popular">Populära</div>
+          <div class="filmer__filter--btn kids">Barn</div>
+        </div>
+        <input class="filmer__filter--sb" placeholder="Movie Searchbar" />
+      </div>
     </section>
-    <section class="spotlight"></section>
-    <section class="news"></section>
+    <main class="filmer__main"></main>
     <footer class="footer">
       <div class="footer__container">
         <div class="footer_logoContainer">
@@ -65,6 +74,26 @@
         </div>
       </div>
     </footer>
+
+    <template id="movie-card-template">
+      <div class="movie-card">
+        <img class="movie-card__poster" src="" alt="Movie Poster" />
+        <div class="movie-card__prime">
+          <h2 class="movie-card__title"></h2>
+          <p class="movie-card__pre-rating">Rating: <span class="movie-card__rating"></span>/5</p>
+        </div>
+        <div class="movie-card__details">
+          <p class="movie-card__info--director"></p>
+          <p class="movie-card__info--release-year"></p>
+          <p class="movie-card__info--genre"></p>
+          <p class="movie-card__info--actors"></p>
+          <p class="movie-card__info--description"></p>
+          <p class="movie-card__info--kid"></p>
+          <p class="movie-card__info--new"></p>
+          <p class="movie-card__info--premiere"></p>
+        </div>
+        <button class="movie-card__button">Boka här</button>
+      </div>
+    </template>
   </body>
 </html>
-

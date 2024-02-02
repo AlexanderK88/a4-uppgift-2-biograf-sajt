@@ -3,12 +3,13 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Bio i Göteborg - Kino</title>
+    <title>News and Events</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js" defer></script>
     <script src="menu.js" defer></script>
+    <script src="newsEvents.js" defer></script>
   </head>
+
   <body>
     <header class="header">
       <div class="header__container">
@@ -35,11 +36,15 @@
         </div>
       </nav>
     </header>
-    <section class="hero">
-        <img src="assets/Hero_FirstPage.jpg" alt="Image of cinema chairs" class="hero__Image">
-    </section>
-    <section class="spotlight"></section>
-    <section class="news"></section>
+    <!-- Hero -->
+    <div class="news">
+      <h2 class="news__title">Nyheter och evenemang</h2>
+      <div class="news__buttonContainer">
+        <button class="news__buttonContainer--newsButton">Evenemang</button>
+        <button class="news__buttonContainer--newsButton">Nyheter</button>
+      </div>
+      <div class="news__container"></div>
+    </div>
     <footer class="footer">
       <div class="footer__container">
         <div class="footer_logoContainer">
@@ -67,4 +72,3 @@
     </footer>
   </body>
 </html>
-
