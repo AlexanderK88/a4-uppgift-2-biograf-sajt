@@ -50,6 +50,14 @@
 .header__link:hover {
   color: #800020;
 }
+.hero {
+  margin: 0;
+  padding: 2em;
+}
+.hero__Image {
+  width: 100%;
+  border-radius: 5px;
+}
 .header__hamburgerMenuContainer {
   position: fixed;
   display: flex;

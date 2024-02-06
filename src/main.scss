@@ -7,6 +7,15 @@
   font-family: "Sora", sans-serif;
 }
 
+.hero {
+  margin: 0;
+  padding: 2em;
+
+  &__Image {
+    width: 100%;
+    border-radius: 5px;
+  }
+}
 .html {
   overflow-x: hidden;
   &.html--overflowHidden {
